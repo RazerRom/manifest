@@ -24,8 +24,8 @@
   <project path="android" name="scotthartbti/android" revision="kk44" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="scotthartbti/android_art" revision="kk44" />
-  <project path="bionic" name="scotthartbti/android_bionic" revision="kk44" />
+  <project path="art" name="pimpmaneaton/android_art" revision="pimp1" />
+  <project path="bionic" name="pimpmaneaton/android_bionic" revision="pimp1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -76,7 +76,7 @@
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="scotthartbti/android_external_chromium_org" revision="kk44" />
+  <project path="external/chromium_org" name="pimpmaneaton/android_external_chromium_org" revision="pimp1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -252,7 +252,7 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="scotthartbti/android_external_skia" revision="kk44" />
+  <project path="external/skia" name="pimpmaneaton/android_external_skia" revision="pimp1" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -301,17 +301,17 @@
   <project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
-  <project path="frameworks/opt/cards" name="scotthartbti/frameworks_opt_cards" revision="kk44" />
+  <project path="frameworks/opt/cards" name="pimpmaneaton/frameworks_opt_cards" revision="pimp1" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="scotthartbti/android_frameworks_opt_datetimepicker" revision="kk44" />
+  <project path="frameworks/opt/datetimepicker" name="pimpmaneaton/android_frameworks_opt_datetimepicker" revision="pimp1" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="scotthartbti/android_frameworks_opt_timezonepicker" revision="kk44" />
-  <project path="frameworks/opt/telephony" name="scotthartbti/android_frameworks_opt_telephony" revision="kk44" />
+  <project path="frameworks/opt/timezonepicker" name="pimpmaneaton/android_frameworks_opt_timezonepicker" revision="pimp1" />
+  <project path="frameworks/opt/telephony" name="pimpmaneaton/android_frameworks_opt_telephony" revision="pimp1" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
@@ -353,73 +353,73 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/BeanStalkOTA" name="scotthartbti/android_packages_apps_BeanStalkOTA" revision="kk44" />
-  <project path="packages/apps/Bluetooth" name="scotthartbti/android_packages_apps_Bluetooth" revision="kk44" />
+  <project path="packages/apps/BeanStalkOTA" name="pimpmaneaton/android_packages_apps_BeanStalkOTA" revision="pimp1" />
+  <project path="packages/apps/Bluetooth" name="pimpmaneaton/android_packages_apps_Bluetooth" revision="pimp1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="scotthartbti/android_packages_apps_Calculator" revision="kk44" />
-  <project path="packages/apps/Calendar" name="scotthartbti/android_packages_apps_Calendar" revision="kk44" />
-  <project path="packages/apps/StalkExplorer" name="scotthartbti/android_packages_apps_StalkExplorer" revision="kk44" />
-  <project path="packages/apps/Camera2" name="LiquidSmooth/android_packages_apps_Camera2" revision="kitkat"/>
-  <project path="packages/apps/CellBroadcastReceiver" name="scotthartbti/android_packages_apps_CellBroadcastReceiver" revision="kk44" />
+  <project path="packages/apps/Calculator" name="pimpmaneaton/android_packages_apps_Calculator" revision="pimp1" />
+  <project path="packages/apps/Calendar" name="pimpmaneaton/android_packages_apps_Calendar" revision="pimp1" />
+  <project path="packages/apps/StalkExplorer" name="pimpmaneaton/android_packages_apps_StalkExplorer" revision="pimp1" />
+  <project path="packages/apps/Camera2" name="pimpmaneaton/android_packages_apps_Camera2" revision="pimp1"/>
+  <project path="packages/apps/CellBroadcastReceiver" name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" revision="pimp1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <project path="packages/apps/Contacts" name="scotthartbti/android_packages_apps_Contacts" revision="kk44" />
-  <project path="packages/apps/ContactsCommon" name="scotthartbti/android_packages_apps_ContactsCommon" revision="kk44" />
-  <project path="packages/apps/DeskClock" name="scotthartbti/android_packages_apps_DeskClock" revision="kk44" />
-  <project path="packages/apps/Dialer" name="scotthartbti/android_packages_apps_Dialer" revision="kk44" />
-  <project path="packages/apps/DSPManager" name="scotthartbti/android_packages_apps_DSPManager" revision="kk44" />
-  <project path="packages/apps/Email" name="scotthartbti/android_packages_apps_Email" revision="kk44" />
-  <project path="packages/apps/EOSWeather" name="scotthartbti/packages_apps_EOSWeather" revision="kk44" />
+  <project path="packages/apps/Contacts" name="pimpmaneaton/android_packages_apps_Contacts" revision="pimp1" />
+  <project path="packages/apps/ContactsCommon" name="pimpmaneaton/android_packages_apps_ContactsCommon" revision="pimp1" />
+  <project path="packages/apps/DeskClock" name="pimpmaneaton/android_packages_apps_DeskClock" revision="pimp1" />
+  <project path="packages/apps/Dialer" name="pimpmaneaton/android_packages_apps_Dialer" revision="pimp1" />
+  <project path="packages/apps/DSPManager" name="pimpmaneaton/android_packages_apps_DSPManager" revision="pimp1" />
+  <project path="packages/apps/Email" name="pimpmaneaton/android_packages_apps_Email" revision="pimp1" />
+  <project path="packages/apps/EOSWeather" name="pimpmaneaton/packages_apps_EOSWeather" revision="pimp1" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="LiquidSmooth/android_packages_apps_Gallery2" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="pimpmaneaton/android_packages_apps_Gallery2" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="scotthartbti/android_packages_apps_InCallUI" revision="kk44" />
+  <project path="packages/apps/InCallUI" name="pimpmaneaton/android_packages_apps_InCallUI" revision="pimp1" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="scotthartbti/android_packages_apps_Mms" revision="kk44" />
+  <project path="packages/apps/Mms" name="pimpmaneaton/android_packages_apps_Mms" revision="pimp1" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/PackageInstaller" name="scotthartbti/android_packages_apps_PackageInstaller" revision="kk44" />
+  <project path="packages/apps/PackageInstaller" name="pimpmaneaton/android_packages_apps_PackageInstaller" revision="pimp1" />
   <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" revision="android-4.4" />
-  <project path="packages/apps/PhoneCommon" name="scotthartbti/android_packages_apps_PhoneCommon" revision="kk44" />
+  <project path="packages/apps/PhoneCommon" name="pimpmaneaton/android_packages_apps_PhoneCommon" revision="pimp1" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" revision="kitkat" />
-  <project path="packages/apps/Settings" name="scotthartbti/android_packages_apps_Settings" revision="kk44" />
+  <project path="packages/apps/Settings" name="pimpmaneaton/android_packages_apps_Settings" revision="pimp1" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="scotthartbti/android_packages_apps_Stk" revision="kk44" />
+  <project path="packages/apps/Stk" name="pimpmaneaton/android_packages_apps_Stk" revision="pimp1" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/BeanStalkPapers" name="scotthartbti/android_packages_apps_BeanStalkPapers" revision="kk44" />
-  <project path="packages/apps/DashClock" name="scotthartbti/android_packages_apps_DashClock" revision="kk44" />
-  <project path="packages/apps/UnifiedEmail" name="scotthartbti/android_packages_apps_UnifiedEmail" revision="kk44" />
-  <project path="packages/apps/Torch" name="scotthartbti/android_packages_apps_Torch" revision="kk44" />
+  <project path="packages/apps/BeanStalkPapers" name="pimpmaneaton/android_packages_apps_BeanStalkPapers" revision="pimp1" />
+  <project path="packages/apps/DashClock" name="pimpmaneaton/android_packages_apps_DashClock" revision="pimp1" />
+  <project path="packages/apps/UnifiedEmail" name="pimpmaneaton/android_packages_apps_UnifiedEmail" revision="pimp1" />
+  <project path="packages/apps/Torch" name="pimpmaneaton/android_packages_apps_Torch" revision="pimp1" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="scotthartbti/android_packages_inputmethods_LatinIME" revision="kk44" />
+  <project path="packages/inputmethods/LatinIME" name="pimpmaneaton/android_packages_inputmethods_LatinIME" revision="pimp1" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="scotthartbti/android_packages_providers_ContactsProvider" revision="kk44" />
-  <project path="packages/providers/DownloadProvider" name="scotthartbti/android_packages_providers_DownloadProvider" revision="kk44" />
-  <project path="packages/providers/MediaProvider" name="scotthartbti/packages_providers_MediaProvider" revision="kk44" />
+  <project path="packages/providers/ContactsProvider" name="pimpmaneaton/android_packages_providers_ContactsProvider" revision="pimp1" />
+  <project path="packages/providers/DownloadProvider" name="pimpmaneaton/android_packages_providers_DownloadProvider" revision="pimp1" />
+  <project path="packages/providers/MediaProvider" name="pimpmaneaton/packages_providers_MediaProvider" revision="pimp1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="scotthartbti/android_packages_providers_TelephonyProvider" revision="kk44" />
+  <project path="packages/providers/TelephonyProvider" name="pimpmaneaton/android_packages_providers_TelephonyProvider" revision="pimp1" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
-  <project path="packages/services/Telephony" name="scotthartbti/android_packages_services_Telephony" revision="kk44" />
+  <project path="packages/services/Telephony" name="pimpmaneaton/android_packages_services_Telephony" revision="pimp1" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
