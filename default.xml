@@ -510,7 +510,11 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="pimpmaneaton/android_vendor_tmobile_libs_com.tmobile.themes" revision="pimp1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" />  
+  <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" /> 
+
+  <!--NEW THEME CHOOSER-->
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> 
   
   <!--Pimpmaneaton Device repos-->
   <project name="pimpmaneaton/android_device_htc_m8" path="device/htc/m8" remote="github" revision="pimp1" />
