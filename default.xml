@@ -449,7 +449,7 @@
   <project path="packages/apps/Email" name="pimpmaneaton/android_packages_apps_Email" revision="pimp1" />
   <project path="packages/apps/EOSWeather" name="pimpmaneaton/packages_apps_EOSWeather" revision="pimp1" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="pimpmaneaton/android_packages_apps_Gallery2" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="pimpmaneaton/android_packages_apps_Gallery2" revision="pimp1" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="pimpmaneaton/android_packages_apps_InCallUI" revision="pimp1" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
