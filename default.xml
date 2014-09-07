@@ -263,7 +263,6 @@
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
@@ -290,7 +289,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="scotthartbti/android_frameworks_av" revision="kk44" />
+  <project path="frameworks/av" name="DirtyUnicorns-KitKat/frameworks_av" revision="du44" />
   <project path="frameworks/base" name="scotthartbti/android_frameworks_base" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -361,7 +360,7 @@
   <project path="packages/apps/Calculator" name="scotthartbti/android_packages_apps_Calculator" revision="kk44" />
   <project path="packages/apps/Calendar" name="scotthartbti/android_packages_apps_Calendar" revision="kk44" />
   <project path="packages/apps/StalkExplorer" name="scotthartbti/android_packages_apps_StalkExplorer" revision="kk44" />
-  <project path="packages/apps/Camera2" name="scotthartbti/android_packages_apps_Camera2" revision="kk44" />
+  <project path="packages/apps/Camera2" name="LiquidSmooth/android_packages_apps_Camera2" revision="kitkat"/>
   <project path="packages/apps/CellBroadcastReceiver" name="scotthartbti/android_packages_apps_CellBroadcastReceiver" revision="kk44" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
@@ -375,7 +374,7 @@
   <project path="packages/apps/Email" name="scotthartbti/android_packages_apps_Email" revision="kk44" />
   <project path="packages/apps/EOSWeather" name="scotthartbti/packages_apps_EOSWeather" revision="kk44" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="scotthartbti/android_packages_apps_Gallery2" revision="kk44" />
+  <project path="packages/apps/Gallery2" name="LiquidSmooth/android_packages_apps_Gallery2" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="scotthartbti/android_packages_apps_InCallUI" revision="kk44" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
