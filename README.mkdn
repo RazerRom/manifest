@@ -14,6 +14,8 @@ Then to sync up:
 
 Please see any of the official beanstalk XDA threads for building instructions.
 
+[See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
+
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
