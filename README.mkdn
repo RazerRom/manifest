@@ -10,7 +10,7 @@ To initialize your local repository using the BeanStalk trees, use a command lik
 
 Then to sync up:
 
-    repo sync
+    repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure of what to use.
 
 Please see any of the official beanstalk XDA threads for building instructions.
 
