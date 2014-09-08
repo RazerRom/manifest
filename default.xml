@@ -134,6 +134,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="UBERUTILS/linaro-arm-eabi-4.10" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/linaro-arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -144,7 +145,6 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro-a8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7-linaro-a8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-linaro" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro-a9" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro-a9" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
@@ -556,7 +556,7 @@
   
   <!--Pimpmaneaton Device repos-->
   <project name="pimpmaneaton/android_device_htc_m8" path="device/htc/m8" remote="github" revision="pimp1" />
-  <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="kk44" />
+  <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="franco-hp" />
   <project name="DirtyUnicorns-KitKat/android_device_qcom_common" path="device/qcom/common" remote="github" revision="du44" />
   <project name="LIquidSmooth/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="m8" />
   <project name="LiquidSmooth/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kitkat" />
