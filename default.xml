@@ -11,6 +11,24 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote name="cm"
+          fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="ln"
+          fetch="git://android.git.linaro.org/" />
+
+  <remote name="lsd"
+          fetch="https://github.com/LiquidSmooth-Devices/" />
+
+  <remote name="ls"
+          fetch="https://github.com/LiquidSmooth/" />
+
+  <remote name="sr"
+          fetch="git://github.com/SlimRoms/" />
+
+  <remote name="tm"
+          fetch="git://github.com/TheMuppets/" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
@@ -318,6 +336,7 @@
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" />
@@ -372,7 +391,7 @@
   <project path="packages/apps/Bluetooth" name="pimpmaneaton/android_packages_apps_Bluetooth" revision="pimp1" />
   <project path="packages/apps/Calculator" name="pimpmaneaton/android_packages_apps_Calculator" revision="pimp1" />
   <project path="packages/apps/Calendar" name="pimpmaneaton/android_packages_apps_Calendar" revision="pimp1" />
-  <project path="packages/apps/Camera2" name="pimpmaneaton/android_packages_apps_Camera2" revision="pimp1"/>
+  <project path="packages/apps/Camera2" name="LiquidSmooth/android_packages_apps_Camera2" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" revision="pimp1" />
   <project path="packages/apps/Contacts" name="pimpmaneaton/android_packages_apps_Contacts" revision="pimp1" />
   <project path="packages/apps/ContactsCommon" name="pimpmaneaton/android_packages_apps_ContactsCommon" revision="pimp1" />
@@ -401,7 +420,7 @@
   <project path="vendor/cm" name="pimpmaneaton/proprietary_vendor_cm" revision="pimp1" />
     
   <!--Frameworks-->
-  <project path="frameworks/av" name="DirtyUnicorns-KitKat/frameworks_av" revision="du44" />
+  <project path="frameworks/av" name="LiquidSmooth/android_frameworks_av" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -513,17 +532,17 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" /> 
 
   <!--NEW THEME CHOOSER-->
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> 
+ <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
   
   <!--Pimpmaneaton Device repos-->
   <project name="pimpmaneaton/android_device_htc_m8" path="device/htc/m8" remote="github" revision="pimp1" />
   <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="kk44" />
   <project name="DirtyUnicorns-KitKat/android_device_qcom_common" path="device/qcom/common" remote="github" revision="du44" />
-  <project name="DirtyUnicorns-KitKat/android_hardware_qcom_display-caf-bfam" path="hardware/qcom/display-caf-bfam" remote="github" revision="du44" />
-  <project name="DirtyUnicorns-KitKat/android_hardware_qcom_media-caf-bfam" path="hardware/qcom/media-caf-bfam" remote="github" revision="du44" />
+  <project name="LIquidSmooth/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="m8" />
+  <project name="LiquidSmooth/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kitkat" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
-  <project name="DirtyUnicorns-KitKat/android_vendor_htc" path="vendor/htc" remote="github" revision="du44" />
+  <project name="LiquidSmooth/android_vendor_htc" path="vendor/htc" remote="github" revision="kitkat" />
   <project name="pimpmaneaton/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="pimp1" />
   <project name="pimpmaneaton/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" revision="pimp1" />
   <project name="pimpmaneaton/android_device_samsung_n5120" path="device/samsung/n5120" remote="github" revision="pimp1" />
