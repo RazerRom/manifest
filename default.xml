@@ -410,7 +410,7 @@
   <project path="packages/apps/Bluetooth" name="pimpmaneaton/android_packages_apps_Bluetooth" revision="pimp1" />
   <project path="packages/apps/Calculator" name="pimpmaneaton/android_packages_apps_Calculator" revision="pimp1" />
   <project path="packages/apps/Calendar" name="pimpmaneaton/android_packages_apps_Calendar" revision="pimp1" />
-  <project path="packages/apps/Camera2" name="LiquidSmooth/android_packages_apps_Camera2" revision="kitkat" />
+  <project path="packages/apps/Camera2" name="SlimRoms/android_packages_apps_Camera2" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" revision="pimp1" />
   <project path="packages/apps/Contacts" name="pimpmaneaton/android_packages_apps_Contacts" revision="pimp1" />
   <project path="packages/apps/ContactsCommon" name="pimpmaneaton/android_packages_apps_ContactsCommon" revision="pimp1" />
