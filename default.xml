@@ -396,7 +396,7 @@
   <!--Pimps-BeanStalk repos-->
   <project path="external/chromium_org" name="pimpmaneaton/android_external_chromium_org" revision="pimp1" />
   <project path="system/media" name="pimpmaneaton/system_media" revision="pimp1" /> 
-  <project path="external/skia" name="CyanogenMod/android_external_skia" /> 
+  <project path="external/skia" name="pimpmaneaton/android_external_skia" revision="pimp1" /> 
   <project path="system/core" name="pimpmaneaton/platform_system_core" revision="pimp1" />
   <project path="art" name="pimpmaneaton/android_art" revision="pimp1" />
   <project path="bionic" name="pimpmaneaton/android_bionic" revision="pimp1" />
@@ -547,13 +547,13 @@
  
   <!--Vendor Repos-->
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
- <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="pimpmaneaton/android_vendor_tmobile_libs_com.tmobile.themes" revision="pimp1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" /> --> 
+  <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" /> 
 
   <!--NEW THEME CHOOSER-->
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> 
+ <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
   
   <!--Pimpmaneaton Device repos
   <project name="pimpmaneaton/android_device_htc_m8" path="device/htc/m8" remote="github" revision="pimp1" />
