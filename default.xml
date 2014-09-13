@@ -41,11 +41,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="pimpmaneaton/platform_build" revision="pimp1" >
+  <project path="build" name="Co-BeanStalk/platform_build" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="pimpmaneaton/android" revision="pimp1" />
+  <project path="android" name="Co-BeanStalk/android" revision="kk4.4" />
   
   <!--AOSP repos-->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
@@ -393,54 +393,55 @@
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" /> 
   
-  <!--Pimps-BeanStalk repos-->
-  <project path="external/chromium_org" name="pimpmaneaton/android_external_chromium_org" revision="pimp1" />
-  <project path="system/media" name="pimpmaneaton/system_media" revision="pimp1" /> 
-  <project path="external/skia" name="pimpmaneaton/android_external_skia" revision="pimp1" /> 
-  <project path="system/core" name="pimpmaneaton/platform_system_core" revision="pimp1" />
-  <project path="art" name="pimpmaneaton/android_art" revision="pimp1" />
-  <project path="bionic" name="pimpmaneaton/android_bionic" revision="pimp1" />
-  <project path="frameworks/base" name="pimpmaneaton/android_frameworks_base" revision="pimp1" />
-  <project path="frameworks/native" name="pimpmaneaton/frameworks_native" revision="pimp1" />
-  <project path="frameworks/opt/cards" name="pimpmaneaton/frameworks_opt_cards" revision="pimp1" />
-  <project path="frameworks/opt/datetimepicker" name="pimpmaneaton/android_frameworks_opt_datetimepicker" revision="pimp1" />
-  <project path="frameworks/opt/timezonepicker" name="pimpmaneaton/android_frameworks_opt_timezonepicker" revision="pimp1" />
-  <project path="frameworks/opt/telephony" name="pimpmaneaton/android_frameworks_opt_telephony" revision="pimp1" />
-  <project path="packages/apps/BeanStalkPapers" name="pimpmaneaton/android_packages_apps_BeanStalkPapers" revision="pimp1" />
-  <project path="packages/apps/BeanStalkOTA" name="pimpmaneaton/android_packages_apps_BeanStalkOTA" revision="pimp1" />
-  <project path="packages/apps/Bluetooth" name="pimpmaneaton/android_packages_apps_Bluetooth" revision="pimp1" />
-  <project path="packages/apps/Calculator" name="pimpmaneaton/android_packages_apps_Calculator" revision="pimp1" />
-  <project path="packages/apps/Calendar" name="pimpmaneaton/android_packages_apps_Calendar" revision="pimp1" />
+  <!--Co-BeanStalk repos-->
+  <project path="external/chromium_org" name="Co-BeanStalk/android_external_chromium_org" revision="kk4.4" />
+  <project path="system/media" name="Co-BeanStalk/system_media" revision="kk4.4" /> 
+  <project path="external/skia" name="Co-BeanStalk/android_external_skia" revision="kk4.4" /> 
+  <project path="system/core" name="Co-BeanStalk/platform_system_core" revision="kk4.4" />
+  <project path="art" name="Co-BeanStalk/android_art" revision="kk4.4" />
+  <project path="bionic" name="Co-BeanStalk/android_bionic" revision="kk4.4" />
+  <project path="frameworks/av" name="Co-BeanStalk/android_frameworks_av" revision="kk4.4" />
+  <project path="frameworks/base" name="Co-BeanStalk/android_frameworks_base" revision="kk4.4" />
+  <project path="frameworks/native" name="Co-BeanStalk/frameworks_native" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="Co-BeanStalk/frameworks_opt_cards" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="Co-BeanStalk/android_frameworks_opt_datetimepicker" revision="kk4.4" />
+  <project path="frameworks/opt/mms" name="Co-BeanStalk/android_frameworks_opt_mms" revision="kk4.4" />
+  <project path="frameworks/opt/timezonepicker" name="Co-BeanStalk/android_frameworks_opt_timezonepicker" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="Co-BeanStalk/android_frameworks_opt_telephony" revision="kk4.4" />
+  <project path="packages/apps/BeanStalkPapers" name="Co-BeanStalk/android_packages_apps_BeanStalkPapers" revision="kk4.4" />
+  <project path="packages/apps/BeanStalkOTA" name="Co-BeanStalk/android_packages_apps_BeanStalkOTA" revision="kk4.4" />
+  <project path="packages/apps/Bluetooth" name="Co-BeanStalk/android_packages_apps_Bluetooth" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="Co-BeanStalk/android_packages_apps_Calculator" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="Co-BeanStalk/android_packages_apps_Calendar" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="pimpmaneaton/android_packages_apps_CellBroadcastReceiver" revision="pimp1" />
-  <project path="packages/apps/Contacts" name="pimpmaneaton/android_packages_apps_Contacts" revision="pimp1" />
-  <project path="packages/apps/ContactsCommon" name="pimpmaneaton/android_packages_apps_ContactsCommon" revision="pimp1" />
-  <project path="packages/apps/DashClock" name="pimpmaneaton/android_packages_apps_DashClock" revision="pimp1" />
-  <project path="packages/apps/DeskClock" name="pimpmaneaton/android_packages_apps_DeskClock" revision="pimp1" />
-  <project path="packages/apps/Dialer" name="pimpmaneaton/android_packages_apps_Dialer" revision="pimp1" />
-  <project path="packages/apps/DSPManager" name="pimpmaneaton/android_packages_apps_DSPManager" revision="pimp1" />
-  <project path="packages/apps/Email" name="pimpmaneaton/android_packages_apps_Email" revision="pimp1" />
-  <project path="packages/apps/EOSWeather" name="pimpmaneaton/packages_apps_EOSWeather" revision="pimp1" />
-  <project path="packages/apps/Gallery2" name="pimpmaneaton/android_packages_apps_Gallery2" revision="pimp1" />
-  <project path="packages/apps/InCallUI" name="pimpmaneaton/android_packages_apps_InCallUI" revision="pimp1" />
-  <project path="packages/apps/Mms" name="pimpmaneaton/android_packages_apps_Mms" revision="pimp1" />
-  <project path="packages/apps/PackageInstaller" name="pimpmaneaton/android_packages_apps_PackageInstaller" revision="pimp1" />       
-  <project path="packages/apps/PhoneCommon" name="pimpmaneaton/android_packages_apps_PhoneCommon" revision="pimp1" />
-  <project path="packages/apps/Settings" name="pimpmaneaton/android_packages_apps_Settings" revision="pimp1" /> 
-  <project path="packages/apps/StalkExplorer" name="pimpmaneaton/android_packages_apps_StalkExplorer" revision="pimp1" /> 
-  <project path="packages/apps/Stk" name="pimpmaneaton/android_packages_apps_Stk" revision="pimp1" /> 
-  <project path="packages/apps/UnifiedEmail" name="pimpmaneaton/android_packages_apps_UnifiedEmail" revision="pimp1" />
-  <project path="packages/apps/Torch" name="pimpmaneaton/android_packages_apps_Torch" revision="pimp1" />  
-  <project path="packages/inputmethods/LatinIME" name="pimpmaneaton/android_packages_inputmethods_LatinIME" revision="pimp1" />  
-  <project path="packages/providers/ContactsProvider" name="pimpmaneaton/android_packages_providers_ContactsProvider" revision="pimp1" />
-  <project path="packages/providers/DownloadProvider" name="pimpmaneaton/android_packages_providers_DownloadProvider" revision="pimp1" />
-  <project path="packages/providers/MediaProvider" name="pimpmaneaton/packages_providers_MediaProvider" revision="pimp1" />  
-  <project path="packages/providers/TelephonyProvider" name="pimpmaneaton/android_packages_providers_TelephonyProvider" revision="pimp1" />
-  <project path="packages/services/Telephony" name="pimpmaneaton/android_packages_services_Telephony" revision="pimp1" />  
-  <project path="vendor/cm" name="pimpmaneaton/proprietary_vendor_cm" revision="pimp1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="Co-BeanStalk/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="Co-BeanStalk/android_packages_apps_Contacts" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="Co-BeanStalk/android_packages_apps_ContactsCommon" revision="kk4.4" />
+  <project path="packages/apps/DashClock" name="Co-BeanStalk/android_packages_apps_DashClock" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="Co-BeanStalk/android_packages_apps_DeskClock" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="Co-BeanStalk/android_packages_apps_Dialer" revision="kk4.4" />
+  <project path="packages/apps/DSPManager" name="Co-BeanStalk/android_packages_apps_DSPManager" revision="kk4.4" />
+  <project path="packages/apps/Email" name="Co-BeanStalk/android_packages_apps_Email" revision="kk4.4" />
+  <project path="packages/apps/EOSWeather" name="Co-BeanStalk/packages_apps_EOSWeather" revision="kk4.4" />
+  <project path="packages/apps/Gallery2" name="Co-BeanStalk/android_packages_apps_Gallery2" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="Co-BeanStalk/android_packages_apps_InCallUI" revision="kk4.4" />
+  <project path="packages/apps/Mms" name="Co-BeanStalk/android_packages_apps_Mms" revision="kk4.4" />
+  <project path="packages/apps/PackageInstaller" name="Co-BeanStalk/android_packages_apps_PackageInstaller" revision="kk4.4" />       
+  <project path="packages/apps/PhoneCommon" name="Co-BeanStalk/android_packages_apps_PhoneCommon" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="Co-BeanStalk/android_packages_apps_Settings" revision="kk4.4" /> 
+  <project path="packages/apps/StalkExplorer" name="Co-BeanStalk/android_packages_apps_StalkExplorer" revision="kk4.4" /> 
+  <project path="packages/apps/Stk" name="Co-BeanStalk/android_packages_apps_Stk" revision="kk4.4" /> 
+  <project path="packages/apps/UnifiedEmail" name="Co-BeanStalk/android_packages_apps_UnifiedEmail" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="Co-BeanStalk/android_packages_apps_Torch" revision="kk4.4" />  
+  <project path="packages/inputmethods/LatinIME" name="Co-BeanStalk/android_packages_inputmethods_LatinIME" revision="kk4.4" />  
+  <project path="packages/providers/ContactsProvider" name="Co-BeanStalk/android_packages_providers_ContactsProvider" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="Co-BeanStalk/android_packages_providers_DownloadProvider" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="Co-BeanStalk/packages_providers_MediaProvider" revision="kk4.4" />  
+  <project path="packages/providers/TelephonyProvider" name="Co-BeanStalk/android_packages_providers_TelephonyProvider" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="Co-BeanStalk/android_packages_services_Telephony" revision="kk4.4" />  
+  <project path="vendor/cm" name="Co-BeanStalk/proprietary_vendor_cm" revision="kk4.4" />
     
   <!--Frameworks-->
-  <project path="frameworks/av" name="pimpmaneaton/android_frameworks_av" revision="pimp1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -454,7 +455,6 @@
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" />
-  <project path="frameworks/opt/mms" name="pimpmaneaton/android_frameworks_opt_mms" revision="pimp1" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
@@ -548,25 +548,25 @@
   <!--Vendor Repos-->
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="pimpmaneaton/android_vendor_tmobile_libs_com.tmobile.themes" revision="pimp1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="pimpmaneaton/android_vendor_tmobile_providers_ThemeManager" revision="pimp1" /> 
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Co-BeanStalk/android_vendor_tmobile_libs_com.tmobile.themes" revision="kk4.4" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="Co-BeanStalk/android_vendor_tmobile_providers_ThemeManager" revision="kk4.4" /> 
 
   <!--NEW THEME CHOOSER-->
  <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
   
   <!--Pimpmaneaton Device repos
-  <project name="pimpmaneaton/android_device_htc_m8" path="device/htc/m8" remote="github" revision="pimp1" />
-  <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="franco-caf" />
+  <project name="Co-BeanStalk/android_device_htc_m8" path="device/htc/m8" remote="github" revision="kk4.4" />
+  <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="kk44" />
   <project name="DirtyUnicorns-KitKat/android_device_qcom_common" path="device/qcom/common" remote="github" revision="du44" />
   <project name="LIquidSmooth/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="m8" />
   <project name="LiquidSmooth/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kitkat" />
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
   <project name="LiquidSmooth/android_vendor_htc" path="vendor/htc" remote="github" revision="kitkat" />
-  <project name="pimpmaneaton/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="pimp1" />
-  <project name="pimpmaneaton/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" revision="pimp1" />
-  <project name="pimpmaneaton/android_device_samsung_n5120" path="device/samsung/n5120" remote="github" revision="pimp1" />
-  <project name="pimpmaneaton/Pimped_DracoKernel" path="kernel/samsung/smdk4412" remote="github" revision="pimp1" />
+  <project name="Co-BeanStalk/android_device_samsung_n5110" path="device/samsung/n5110" remote="github" revision="kk4.4" />
+  <project name="Co-BeanStalk/android_device_samsung_n5100" path="device/samsung/n5100" remote="github" revision="kk4.4" />
+  <project name="Co-BeanStalk/android_device_samsung_n5120" path="device/samsung/n5120" remote="github" revision="kk4.4" />
+  <project name="Co-BeanStalk/Pimped_DracoKernel" path="kernel/samsung/smdk4412" remote="github" revision="kk4.4" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <project name="VanirAOSP/device_samsung_kona-common" path="device/samsung/kona-common" remote="github" revision="kk44" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />

@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BeanStalk trees, use a command like this:
 
-    repo init -u git://github.com/pimpmaneaton/android.git -b pimp1
+    repo init -u git://github.com/Co-BeanStalk/android.git -b kk4.4
 
 Then to sync up:
 
