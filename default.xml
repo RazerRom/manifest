@@ -132,15 +132,9 @@
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-sm" name="UBERUTILS/arm-linux-androideabi-4.7" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="UBERUTILS/arm-linux-androideabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10-sm" name="UBERUTILS/arm-linux-androideabi-4.10" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="UBERUTILS/LINARO-OTTER" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="UBERUTILS/arm-eabi-4.7" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="UBERUTILS/arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="UBERUTILS/linaro-arm-eabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERUTILS/linaro-arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERUTILS/linaro-arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm" name="Lens-F/linaro-cortex-toolchains" remote="github" revision="master" /> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -151,7 +145,16 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro-a8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7-linaro-a8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-linaro" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro-a9" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro-a9" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro-a9" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-linaro-a9" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro-a15" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8-linaro-a15" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro-a15" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.9-linaro-a15" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="teameos"  revision="kk4.4" groups="pdk,linux,arm" /> <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
