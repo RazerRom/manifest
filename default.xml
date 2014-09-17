@@ -373,6 +373,7 @@
   <project path="external/replicaisland" name="CyanogenMod/android_external_replicaisland" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" /> 
+  <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
@@ -380,9 +381,9 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" /> 
   
   <!--Co-BeanStalk repos-->
-  <project path="external/chromium_org" name="Co-BeanStalk/android_external_chromium_org" revision="kk4.4" />
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
   <project path="system/media" name="Co-BeanStalk/system_media" revision="kk4.4" /> 
-  <project path="external/skia" name="Co-BeanStalk/android_external_skia" revision="kk4.4" /> 
+  <project path="external/skia" name="CyanogenMod/android_external_skia" /> 
   <project path="system/core" name="Co-BeanStalk/platform_system_core" revision="kk4.4" />
   <project path="art" name="Co-BeanStalk/android_art" revision="kk4.4" />
   <project path="bionic" name="Co-BeanStalk/android_bionic" revision="kk4.4" />
@@ -533,13 +534,13 @@
  
   <!--Vendor Repos-->
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+ <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="Co-BeanStalk/android_vendor_tmobile_libs_com.tmobile.themes" revision="kk4.4" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="Co-BeanStalk/android_vendor_tmobile_providers_ThemeManager" revision="kk4.4" /> 
+  <project path="vendor/tmobile/providers/ThemeManager" name="Co-BeanStalk/android_vendor_tmobile_providers_ThemeManager" revision="kk4.4" /> -->
 
   <!--NEW THEME CHOOSER-->
- <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   
   <!--Pimpmaneaton Device repos
   <project name="Co-BeanStalk/android_device_htc_m8" path="device/htc/m8" remote="github" revision="kk4.4" />
