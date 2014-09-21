@@ -427,7 +427,7 @@
   <project path="packages/providers/TelephonyProvider" name="Co-BeanStalk/android_packages_providers_TelephonyProvider" revision="kk4.4" />
   <project path="packages/services/Telephony" name="Co-BeanStalk/android_packages_services_Telephony" revision="kk4.4" />  
   <project path="vendor/cm" name="Co-BeanStalk/proprietary_vendor_cm" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
+  <project path="packages/apps/KernelTweaker" name="Co-BeanStalk/android_packages_apps_KernelTweaker" revision="kk4.4" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
