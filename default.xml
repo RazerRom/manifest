@@ -544,7 +544,7 @@
   
   <!--Pimpmaneaton Device repos
   <project name="Co-BeanStalk/android_device_htc_m8" path="device/htc/m8" remote="github" revision="kk4.4" />
-  <project name="Co-BeanStalk/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="kk4.4" />
+  <project name="xboxfanj/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="github" revision="kk44" />
   <project name="DirtyUnicorns-KitKat/android_device_qcom_common" path="device/qcom/common" remote="github" revision="du44" />
   <project name="LIquidSmooth/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="m8" />
   <project name="LiquidSmooth/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kitkat" />
