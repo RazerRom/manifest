@@ -427,6 +427,7 @@
   <project path="packages/providers/TelephonyProvider" name="Co-BeanStalk/android_packages_providers_TelephonyProvider" revision="kk4.4" />
   <project path="packages/services/Telephony" name="Co-BeanStalk/android_packages_services_Telephony" revision="kk4.4" />  
   <project path="vendor/cm" name="Co-BeanStalk/proprietary_vendor_cm" revision="kk4.4" />
+  <project path="packages/apps/KernelTweaker" name="android_packages_apps_KernelTweaker" remote="ls" revision="kitkat" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
@@ -500,7 +501,6 @@
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" revision="android-4.4" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" revision="kitkat" />
