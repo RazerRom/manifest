@@ -394,7 +394,7 @@
   <project path="frameworks/opt/datetimepicker" name="Co-BeanStalk/android_frameworks_opt_datetimepicker" revision="kk4.4" />
   <project path="frameworks/opt/mms" name="Co-BeanStalk/android_frameworks_opt_mms" revision="kk4.4" />
   <project path="frameworks/opt/timezonepicker" name="Co-BeanStalk/android_frameworks_opt_timezonepicker" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="scotthartbtu/android_frameworks_opt_telephony" revision="kk44" />
+  <project path="frameworks/opt/telephony" name="Co-Beanstalk/android_frameworks_opt_telephony" revision="kk4.4" />
   <project path="packages/apps/BeanStalkPapers" name="Co-BeanStalk/android_packages_apps_BeanStalkPapers" revision="kk4.4" />
   <project path="packages/apps/BeanStalkOTA" name="Co-BeanStalk/android_packages_apps_BeanStalkOTA" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="Co-BeanStalk/android_packages_apps_Bluetooth" revision="kk4.4" />
@@ -412,6 +412,7 @@
   <project path="packages/apps/EOSWeather" name="Co-BeanStalk/packages_apps_EOSWeather" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="Co-BeanStalk/android_packages_apps_Gallery2" revision="kk4.4" />
   <project path="packages/apps/InCallUI" name="Co-BeanStalk/android_packages_apps_InCallUI" revision="kk4.4" />
+  <project path="packages/apps/KernelTweaker" name="Co-BeanStalk/android_packages_apps_KernelTweaker" revision="kk4.4" />  
   <project path="packages/apps/Mms" name="Co-BeanStalk/android_packages_apps_Mms" revision="kk4.4" />
   <project path="packages/apps/PackageInstaller" name="Co-BeanStalk/android_packages_apps_PackageInstaller" revision="kk4.4" />       
   <project path="packages/apps/PhoneCommon" name="Co-BeanStalk/android_packages_apps_PhoneCommon" revision="kk4.4" />
@@ -425,9 +426,8 @@
   <project path="packages/providers/DownloadProvider" name="Co-BeanStalk/android_packages_providers_DownloadProvider" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="Co-BeanStalk/packages_providers_MediaProvider" revision="kk4.4" />  
   <project path="packages/providers/TelephonyProvider" name="Co-BeanStalk/android_packages_providers_TelephonyProvider" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="scotthartbti/android_packages_services_Telephony" revision="kk44" />  
+  <project path="packages/services/Telephony" name="Co-BeanStalk/android_packages_services_Telephony" revision="kk4.4" />  
   <project path="vendor/cm" name="Co-BeanStalk/proprietary_vendor_cm" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="Co-BeanStalk/android_packages_apps_KernelTweaker" revision="kk4.4" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
