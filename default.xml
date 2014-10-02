@@ -326,7 +326,7 @@
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" revision="cm-11.0" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" revision="cm-11.0" />
   <project path="external/ppp" name="CyanogenMod/android_external_ppp" revision="cm-11.0" />
-  <project path="external/proguard" name="CyanogenMod/android_external_proguard" groups="pdk-java" revision="cm-11.0" />
+  <project path="external/proguard" name="Co-BeanStalk/android_external_proguard" groups="pdk-java" revision="kk4.4" />
   <project path="external/protobuf" name="CyanogenMod/android_external_protobuf" groups="pdk" revision="cm-11.0" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" revision="cm-11.0" />
   <project path="external/qemu" name="CyanogenMod/android_external_qemu" revision="cm-11.0" />
