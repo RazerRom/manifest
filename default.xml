@@ -420,7 +420,9 @@
   <project path="packages/apps/StalkExplorer" name="Co-BeanStalk/android_packages_apps_StalkExplorer" revision="kk4.4" /> 
   <project path="packages/apps/Stk" name="Co-BeanStalk/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="Co-BeanStalk/android_packages_apps_UnifiedEmail" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="Co-BeanStalk/android_packages_apps_Torch" revision="kk4.4" />  
+  <project path="packages/apps/Torch" name="Co-BeanStalk/android_packages_apps_Torch" revision="kk4.4" /> 
+  <project path="packages/apps/XposedAppSettings" name="Co-BeanStalk/XposedAppSettings" revision="kk4.4" /> 
+  <project path="packages/apps/XposedInstaller" name="Co-BeanStalk/XposedInstaller" revision="kk4.4" />  
   <project path="packages/inputmethods/LatinIME" name="Co-BeanStalk/android_packages_inputmethods_LatinIME" revision="kk4.4" />  
   <project path="packages/providers/ContactsProvider" name="Co-BeanStalk/android_packages_providers_ContactsProvider" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="Co-BeanStalk/android_packages_providers_DownloadProvider" revision="kk4.4" />
