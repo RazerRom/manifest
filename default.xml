@@ -414,6 +414,7 @@
   <project path="packages/apps/InCallUI" name="Co-BeanStalk/android_packages_apps_InCallUI" revision="kk4.4" />
   <project path="packages/apps/KernelTweaker" name="Co-BeanStalk/android_packages_apps_KernelTweaker" revision="kk4.4" />  
   <project path="packages/apps/Mms" name="Co-BeanStalk/android_packages_apps_Mms" revision="kk4.4" />
+  <project path="packages/apps/OmniSwitch" name="Co-BeanStalk/android_packages_apps_OmniSwitch" revision="kk4.4" />  
   <project path="packages/apps/PackageInstaller" name="Co-BeanStalk/android_packages_apps_PackageInstaller" revision="kk4.4" />       
   <project path="packages/apps/PhoneCommon" name="Co-BeanStalk/android_packages_apps_PhoneCommon" revision="kk4.4" />
   <project path="packages/apps/Settings" name="Co-BeanStalk/android_packages_apps_Settings" revision="kk4.4" /> 
