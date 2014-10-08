@@ -478,7 +478,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" revision="cm-11.0" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" revision="cm-11.0" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" revision="cm-11.0" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-11.0"  />
+  <project path="hardware/ril" name="DirtyUnicorns-KitKat/android_hardware_ril" groups="pdk" revision="du44"  />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" revision="cm-11.0" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" revision="cm-11.0" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" revision="cm-11.0" />
