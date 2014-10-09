@@ -347,7 +347,6 @@
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" revision="cm-11.0" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" revision="cm-11.0" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" revision="cm-11.0" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" revision="cm-11.0" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" revision="cm-11.0" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" revision="cm-11.0" />
@@ -383,9 +382,10 @@
   
   <!--Co-BeanStalk repos-->
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
-  <project path="system/media" name="Co-BeanStalk/system_media" revision="kk4.4" /> 
   <project path="external/skia" name="CyanogenMod/android_external_skia" /> 
+  <project path="external/stagefright-plugins" name="Co-BeanStalk/android_external_stagefright-plugins" revision="kk4.4" />  
   <project path="system/core" name="Co-BeanStalk/platform_system_core" revision="kk4.4" />
+  <project path="system/media" name="Co-BeanStalk/system_media" revision="kk4.4" />  
   <project path="art" name="Co-BeanStalk/android_art" revision="kk4.4" />
   <project path="bionic" name="Co-BeanStalk/android_bionic" revision="kk4.4" />
   <project path="frameworks/av" name="Co-BeanStalk/android_frameworks_av" revision="kk4.4" />
