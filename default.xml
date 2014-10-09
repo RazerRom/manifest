@@ -27,6 +27,9 @@
   <remote name="sr"
           fetch="git://github.com/SlimRoms/" />
 
+  <remote name="bean"
+          fetch="git://github.com/Co-BeanStalk/" />
+
   <remote name="tm"
           fetch="git://github.com/TheMuppets/" />
           
