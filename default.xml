@@ -21,6 +21,9 @@
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
 
+  <remote name="Co-BeanStalk"
+          fetch="https://github.com/Co-BeanStalk/" />
+
   <remote name="ls"
           fetch="https://github.com/LiquidSmooth/" />
 
