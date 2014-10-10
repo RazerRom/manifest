@@ -34,13 +34,13 @@
           fetch="git://github.com/TheMuppets/" />
           
   <remote name="vr"
-          fetch="git://github.com/VanirAOSP/" />          
+          fetch="git://github.com/VanirAOSP/" />
+          
+  <remote name="du"
+          fetch="git://github.com/DirtyUnicorns-KitKat/" />                      
           
    <remote  name="teameos"
-           fetch="git://github.com/teameos/"
-           review="review.teameos.org"
-           sync-j="16"
-           revision="kk4.4" />         
+           fetch="git://github.com/teameos/" />         
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
