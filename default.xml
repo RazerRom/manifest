@@ -33,6 +33,9 @@
   <remote name="tm"
           fetch="git://github.com/TheMuppets/" />
           
+  <remote name="vr"
+          fetch="git://github.com/VanirAOSP/" />          
+          
    <remote  name="teameos"
            fetch="git://github.com/teameos/"
            review="review.teameos.org"
