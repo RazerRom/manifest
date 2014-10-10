@@ -543,7 +543,7 @@
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="Co-BeanStalk/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
+  <project path="vendor/samsung/i9082" name="Co-BeanStalk/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
 
  <!-- <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="Co-BeanStalk/android_vendor_tmobile_libs_com.tmobile.themes" revision="kk4.4" />
