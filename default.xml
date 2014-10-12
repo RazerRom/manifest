@@ -13,10 +13,10 @@
            fetch="ssh://git@github.com" />
            
   <remote name="cm"
-          fetch="git://github.com/CyanogenMod/" />
+          fetch="https://github.com/CyanogenMod/" />
 
   <remote name="ln"
-          fetch="git://android.git.linaro.org/" />
+          fetch="https://android.git.linaro.org/" />
 
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
@@ -28,19 +28,19 @@
           fetch="https://github.com/LiquidSmooth/" />
 
   <remote name="sr"
-          fetch="git://github.com/SlimRoms/" />
+          fetch="https://github.com/SlimRoms/" />
 
   <remote name="tm"
-          fetch="git://github.com/TheMuppets/" />
+          fetch="https://github.com/TheMuppets/" />
           
   <remote name="vr"
-          fetch="git://github.com/VanirAOSP/" />
+          fetch="https://github.com/VanirAOSP/" />
           
   <remote name="du"
-          fetch="git://github.com/DirtyUnicorns-KitKat/" />                      
+          fetch="https://github.com/DirtyUnicorns-KitKat/" />                      
           
    <remote  name="teameos"
-           fetch="git://github.com/teameos/" />         
+           fetch="https://github.com/teameos/" />         
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
