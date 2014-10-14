@@ -395,7 +395,7 @@
   <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
   <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
   <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
-  <project path="bionic" name="TeanBliss/android_bionic" revision="kk4.4" />
+  <project path="bionic" name="TeamBliss/android_bionic" revision="kk4.4" />
   <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
   <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
   <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
