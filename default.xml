@@ -22,7 +22,7 @@
           fetch="https://github.com/LiquidSmooth-Devices/" />
 
   <remote name="Co-BeanStalk"
-          fetch="https://github.com/Co-BeanStalk/" />
+          fetch="https://github.com/TeamBliss/" />
 
   <remote name="ls"
           fetch="https://github.com/LiquidSmooth/" />
@@ -47,11 +47,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Co-BeanStalk/platform_build" revision="kk4.4" >
+  <project path="build" name="TeamBliss/platform_build" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Co-BeanStalk/android" revision="kk4.4" />
+  <project path="android" name="TeamBliss/android" revision="kk4.4" />
   
   <!--AOSP repos-->
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
@@ -388,55 +388,55 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   
-  <!--Co-BeanStalk repos-->
+  <!--TeamBliss repos-->
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" /> 
-  <project path="external/stagefright-plugins" name="Co-BeanStalk/android_external_stagefright-plugins" revision="kk4.4" />  
-  <project path="system/core" name="Co-BeanStalk/platform_system_core" revision="kk4.4" />
-  <project path="system/media" name="Co-BeanStalk/system_media" revision="kk4.4" />  
-  <project path="art" name="Co-BeanStalk/android_art" revision="kk4.4" />
-  <project path="bionic" name="Co-BeanStalk/android_bionic" revision="kk4.4" />
-  <project path="frameworks/av" name="Co-BeanStalk/android_frameworks_av" revision="kk4.4" />
-  <project path="frameworks/base" name="Co-BeanStalk/android_frameworks_base" revision="kk4.4" />
-  <project path="frameworks/native" name="Co-BeanStalk/frameworks_native" revision="kk4.4" />
-  <project path="frameworks/opt/cards" name="Co-BeanStalk/frameworks_opt_cards" revision="kk4.4" />
-  <project path="frameworks/opt/datetimepicker" name="Co-BeanStalk/android_frameworks_opt_datetimepicker" revision="kk4.4" />
-  <project path="frameworks/opt/mms" name="Co-BeanStalk/android_frameworks_opt_mms" revision="kk4.4" />
-  <project path="frameworks/opt/timezonepicker" name="Co-BeanStalk/android_frameworks_opt_timezonepicker" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="Co-Beanstalk/android_frameworks_opt_telephony" revision="kk4.4" />
-  <project path="packages/apps/BeanStalkPapers" name="Co-BeanStalk/android_packages_apps_BeanStalkPapers" revision="kk4.4" />
-  <project path="packages/apps/BeanStalkOTA" name="Co-BeanStalk/android_packages_apps_BeanStalkOTA" revision="kk4.4" />
-  <project path="packages/apps/Bluetooth" name="Co-BeanStalk/android_packages_apps_Bluetooth" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="Co-BeanStalk/android_packages_apps_Calculator" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="Co-BeanStalk/android_packages_apps_Calendar" revision="kk4.4" />
+  <project path="external/stagefright-plugins" name="TeamBliss/android_external_stagefright-plugins" revision="kk4.4" />  
+  <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
+  <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
+  <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
+  <project path="bionic" name="TeanBliss/android_bionic" revision="kk4.4" />
+  <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
+  <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
+  <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="TeamBliss/frameworks_opt_cards" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="TeamBliss/android_frameworks_opt_datetimepicker" revision="kk4.4" />
+  <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
+  <project path="frameworks/opt/timezonepicker" name="TeamBliss/android_frameworks_opt_timezonepicker" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" />
+  <project path="packages/apps/BeanStalkPapers" name="TeamBliss/android_packages_apps_BeanStalkPapers" revision="kk4.4" />
+  <project path="packages/apps/BeanStalkOTA" name="TeamBliss/android_packages_apps_BeanStalkOTA" revision="kk4.4" />
+  <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="TeamBliss/android_packages_apps_Calculator" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="TeamBliss/android_packages_apps_Calendar" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="Co-BeanStalk/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
-  <project path="packages/apps/Contacts" name="Co-BeanStalk/android_packages_apps_Contacts" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="Co-BeanStalk/android_packages_apps_ContactsCommon" revision="kk4.4" />
-  <project path="packages/apps/DashClock" name="Co-BeanStalk/android_packages_apps_DashClock" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="Co-BeanStalk/android_packages_apps_DeskClock" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="Co-BeanStalk/android_packages_apps_Dialer" revision="kk4.4" />
-  <project path="packages/apps/DSPManager" name="Co-BeanStalk/android_packages_apps_DSPManager" revision="kk4.4" />
-  <project path="packages/apps/Email" name="Co-BeanStalk/android_packages_apps_Email" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="Co-BeanStalk/android_packages_apps_Gallery2" revision="kk4.4" />
-  <project path="packages/apps/InCallUI" name="Co-BeanStalk/android_packages_apps_InCallUI" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="Co-BeanStalk/android_packages_apps_KernelTweaker" revision="kk4.4" />  
-  <project path="packages/apps/Mms" name="Co-BeanStalk/android_packages_apps_Mms" revision="kk4.4" />
-  <project path="packages/apps/OmniSwitch" name="Co-BeanStalk/android_packages_apps_OmniSwitch" revision="kk4.4" />  
-  <project path="packages/apps/PackageInstaller" name="Co-BeanStalk/android_packages_apps_PackageInstaller" revision="kk4.4" />       
-  <project path="packages/apps/PhoneCommon" name="Co-BeanStalk/android_packages_apps_PhoneCommon" revision="kk4.4" />
-  <project path="packages/apps/Settings" name="Co-BeanStalk/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/StalkExplorer" name="Co-BeanStalk/android_packages_apps_StalkExplorer" revision="kk4.4" /> 
-  <project path="packages/apps/Stk" name="Co-BeanStalk/android_packages_apps_Stk" revision="kk4.4" /> 
-  <project path="packages/apps/UnifiedEmail" name="Co-BeanStalk/android_packages_apps_UnifiedEmail" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="Co-BeanStalk/android_packages_apps_Torch" revision="kk4.4" />  
-  <project path="packages/inputmethods/LatinIME" name="Co-BeanStalk/android_packages_inputmethods_LatinIME" revision="kk4.4" />  
-  <project path="packages/providers/ContactsProvider" name="Co-BeanStalk/android_packages_providers_ContactsProvider" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="Co-BeanStalk/android_packages_providers_DownloadProvider" revision="kk4.4" />
-  <project path="packages/providers/MediaProvider" name="Co-BeanStalk/packages_providers_MediaProvider" revision="kk4.4" />  
-  <project path="packages/providers/TelephonyProvider" name="Co-BeanStalk/android_packages_providers_TelephonyProvider" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="Co-BeanStalk/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/beanstalk" name="Co-BeanStalk/proprietary_vendor_beanstalk" revision="kk4.4" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="TeamBliss/android_packages_apps_Contacts" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="TeamBliss/android_packages_apps_ContactsCommon" revision="kk4.4" />
+  <project path="packages/apps/DashClock" name="TeamBliss/android_packages_apps_DashClock" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="TeamBliss/android_packages_apps_DeskClock" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
+  <project path="packages/apps/DSPManager" name="TeamBliss/android_packages_apps_DSPManager" revision="kk4.4" />
+  <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
+  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
+  <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
+  <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
+  <project path="packages/apps/OmniSwitch" name="TeamBliss/android_packages_apps_OmniSwitch" revision="kk4.4" />  
+  <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
+  <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
+  <project path="packages/apps/StalkExplorer" name="TeamBliss/android_packages_apps_StalkExplorer" revision="kk4.4" /> 
+  <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
+  <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
+  <project path="packages/inputmethods/LatinIME" name="TeamBliss/android_packages_inputmethods_LatinIME" revision="kk4.4" />  
+  <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
+  <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
+  <project path="vendor/beanstalk" name="TeamBliss/proprietary_vendor_beanstalk" revision="kk4.4" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
@@ -471,7 +471,7 @@
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" revision="cm-11.0" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" revision="cm-11.0" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="Co-BeanStalk/android_hardware_libhardware_legacy" revision="kk4.4" />
+  <project path="hardware/libhardware_legacy" name="TeamBliss/android_hardware_libhardware_legacy" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" revision="cm-11.0" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-11.0" />
@@ -548,7 +548,7 @@
   <project path="vendor/htc" name="LiquidSmooth/android_vendor_htc" remote="github" revision="kitkat" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung/i9082" name="Co-BeanStalk/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
+  <project path="vendor/samsung/i9082" name="teambliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
 
   <!--NEW THEME CHOOSER-->
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" revision="cm-11.0" />
