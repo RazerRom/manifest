@@ -404,7 +404,7 @@
   <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
   <project path="frameworks/opt/timezonepicker" name="TeamBliss/android_frameworks_opt_timezonepicker" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" />
-  <project path="packages/apps/BeanStalkPapers" name="TeamBliss/android_packages_apps_BeanStalkPapers" revision="kk4.4" />
+  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
   <project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
   <project path="packages/apps/Calculator" name="TeamBliss/android_packages_apps_Calculator" revision="kk4.4" />
@@ -426,7 +426,7 @@
   <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
   <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
   <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/StalkExplorer" name="TeamBliss/android_packages_apps_StalkExplorer" revision="kk4.4" /> 
+  <project path="packages/apps/BlissExplorer" name="TeamBliss/android_packages_apps_BlissExplorer" revision="kk4.4" /> 
   <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
   <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
