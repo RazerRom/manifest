@@ -20,6 +20,9 @@
 
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
+          
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom" />          
 
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
