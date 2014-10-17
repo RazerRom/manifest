@@ -171,7 +171,7 @@
   <!--CM repos-->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" revision="cm-11.0" /> 
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" revision="cm-11.0" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="cm-11.0" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" revision="cm-11.0" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" revision="cm-11.0" />
   <project path="development" name="CyanogenMod/android_development" revision="cm-11.0" />
@@ -276,7 +276,6 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" revision="cm-11.0" />
   <project path="external/koush/ion" name="CyanogenMod/ion" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" revision="cm-11.0" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" revision="cm-11.0" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" revision="cm-11.0" />
