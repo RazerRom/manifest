@@ -549,7 +549,7 @@
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
-  <project path="vendor/supersu" name="TeamBilss/vendor_supersu" remote="github" revision="kk4.4" />
+  <project path="vendor/supersu" name="TeamBliss/vendor_supersu" remote="github" revision="kk4.4" />
 
   <!--NEW THEME CHOOSER-->
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" revision="cm-11.0" />
