@@ -279,6 +279,7 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" revision="cm-11.0" />
   <project path="external/koush/ion" name="CyanogenMod/ion" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-11.0" />  
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" revision="cm-11.0" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" revision="cm-11.0" />
   <project path="external/libxslt" name="CyanogenMod/android_external_libxslt" revision="cm-11.0" />
