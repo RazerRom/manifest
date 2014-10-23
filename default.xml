@@ -177,7 +177,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" revision="cm-11.0" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" revision="cm-11.0" />
-  <project path="development" name="CyanogenMod/android_development" revision="cm-11.0" />
+  <project path="development" name="android_development" remote="sr" revision="kk4.4" />
   <project path="device/common" name="CyanogenMod/android_device_common" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" revision="cm-11.0" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" revision="cm-11.0" />
@@ -402,22 +402,22 @@
   <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
   <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
   <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
-  <project path="frameworks/opt/cards" name="TeamBliss/frameworks_opt_cards" revision="kk4.4" />
-  <project path="frameworks/opt/datetimepicker" name="TeamBliss/android_frameworks_opt_datetimepicker" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
-  <project path="frameworks/opt/timezonepicker" name="TeamBliss/android_frameworks_opt_timezonepicker" revision="kk4.4" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" />
   <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
   <project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="TeamBliss/android_packages_apps_Calculator" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="TeamBliss/android_packages_apps_Calendar" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
-  <project path="packages/apps/Contacts" name="TeamBliss/android_packages_apps_Contacts" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="TeamBliss/android_packages_apps_ContactsCommon" revision="kk4.4" />
-  <project path="packages/apps/DashClock" name="TeamBliss/android_packages_apps_DashClock" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="TeamBliss/android_packages_apps_DeskClock" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
   <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
@@ -432,7 +432,7 @@
   <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
   <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
-  <project path="packages/inputmethods/LatinIME" name="TeamBliss/android_packages_inputmethods_LatinIME" revision="kk4.4" />  
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />  
   <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
   <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
@@ -503,7 +503,7 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" revision="cm-11.0" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" revision="cm-11.0" />
-  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" revision="cm-11.0" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="sr" revision="kk4.4" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" revision="cm-11.0" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" revision="cm-11.0" />
