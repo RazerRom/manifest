@@ -428,7 +428,6 @@
   <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
   <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
   <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/BlissExplorer" name="TeamBliss/android_packages_apps_BlissExplorer" revision="kk4.4" /> 
   <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
   <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
