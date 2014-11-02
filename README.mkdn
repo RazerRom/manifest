@@ -1,16 +1,16 @@
 Getting Started
 ---------------
 
-To get started with Android/BeanStalk, you'll need to get
+To get started with Android/BlissStalk, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BeanStalk trees, use a command like this:
+To initialize your local repository using the BlissStalk trees, use this command:
 
     repo init -u git://github.com/TeamBliss/android.git -b kk4.4
 
 Then to sync up:
 
-    repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure of what to use.
+    repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
 
 Please see any of the official beanstalk XDA threads for building instructions.
 
