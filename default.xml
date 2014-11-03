@@ -50,7 +50,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="BlissTesting/platform_build" revision="kk4.4" >
+  <project path="build" name="TeamBliss/platform_build" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -438,7 +438,7 @@
   <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
   <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
   <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/bliss" name="BlissTesting/proprietary_vendor_bliss" revision="kk4.4" />
+  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
