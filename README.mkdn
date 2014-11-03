@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BlissStalk trees, use this command:
 
-    repo init -u git://github.com/TeamBliss/android.git -b kk4.4
+    repo init -u https://github.com/TeamBliss/android.git -b kk4.4
 
 Then to sync up:
 
