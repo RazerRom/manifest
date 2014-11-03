@@ -390,7 +390,7 @@
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" revision="cm-11.0" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" revision="cm-11.0" /> 
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
-  <project name="TeamBliss/android_hardware_samsung" path="hardware/samsung" remote="github" revision="kk4.4" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   
   <!--TeamBliss repos-->
 
