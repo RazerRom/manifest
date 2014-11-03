@@ -50,7 +50,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss/platform_build" revision="kk4.4" >
+  <project path="build" name="BlissTesting/platform_build" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -411,9 +411,9 @@
   <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
   <project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="TeamBLiss/android_packages_apps_Calculator" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" revision="cm-11.0" />
+  <project path="packages/apps/Camera2" name="TeamBliss/android_packages_apps_Camera2" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sr" revision="kk4.4" />
@@ -438,7 +438,7 @@
   <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
   <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
   <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" />
+  <project path="vendor/bliss" name="BlissTesting/proprietary_vendor_bliss" revision="kk4.4" />
     
   <!--Frameworks-->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
@@ -475,7 +475,7 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" revision="cm-11.0" />
   <project path="hardware/libhardware_legacy" name="TeamBliss/android_hardware_libhardware_legacy" revision="kk4.4" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="TeamBliss/android_hardware_qcom_audio-caf" groups="caf" revision="kk4.4" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" revision="cm-11.0" />
