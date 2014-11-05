@@ -395,7 +395,7 @@
   <!--TeamBliss repos-->
 
   <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
-  <project path="external/stagefright-plugins" name="TeamBliss/android_external_stagefright-plugins" revision="kk4.4" />  
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />  
   <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
   <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
   <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
