@@ -431,7 +431,7 @@
   <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
   <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
   <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="TeamBliss/android_packages_apps_Torch" revision="kk4.4" />  
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />  
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />  
   <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
