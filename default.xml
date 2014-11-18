@@ -54,7 +54,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="TeamBliss/android" revision="lp5.0" />
+  <project path="android" name="CyanogenMod/android" revision="cm-12.0" />
   
   <!--AOSP repos-->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -659,7 +659,7 @@
 
   <!--Additional Repos-->
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
-  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity " remote="github" revision="cm-11.0" />    
+  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="github" revision="cm-11.0" />    
 
   
 </manifest>
