@@ -649,7 +649,7 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" /> 
  
   <!--Vendor Repos-->
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
@@ -657,7 +657,9 @@
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
 
-  <!--NEW THEME CHOOSER-->
+  <!--Additional Repos-->
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
+  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity " remote="github" revision="cm-11.0" />    
 
   
 </manifest>
