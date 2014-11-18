@@ -50,7 +50,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss-LP/android_build" revision="lp5.0" >
+  <project path="build" name="CyanogenMod/android_build" revision="cm-12.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
