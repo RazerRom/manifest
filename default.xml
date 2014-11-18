@@ -45,16 +45,16 @@
    <remote  name="teameos"
            fetch="https://github.com/teameos/" />         
 
-  <default revision="refs/heads/cm-11.0"
+  <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="TeamBliss/platform_build" revision="kk4.4" >
+  <project path="build" name="TeamBliss-LP/android_build" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="TeamBliss/android" revision="kk4.4" />
+  <project path="android" name="TeamBliss/android" revision="lp5.0" />
   
   <!--AOSP repos-->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
