@@ -57,9 +57,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" revision="cm-12.0" />
-  
-  <!--AOSP repos-->
+ <project path="android" name="CyanogenMod/android" />
+
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -87,10 +86,9 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  
-  <!--Externals-->
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
@@ -328,7 +326,7 @@
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7"  />
+  <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
@@ -366,58 +364,8 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  
-  <!--TeamBliss repos
-
-  <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />  
-  <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
-  <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
-  <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
-  <project path="bionic" name="TeamBliss/android_bionic" revision="kk4.4" />
-  <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
-  <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
-  <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" /> -->
-  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
-  <!--<project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
-  <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="TeamBLiss/android_packages_apps_Calculator" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="TeamBliss/android_packages_apps_Camera2" revision="kk4.4" />
-  <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
-  <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
-  <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
-  <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
-  <project path="packages/apps/OmniSwitch" name="TeamBliss/android_packages_apps_OmniSwitch" revision="kk4.4" />  
-  <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
-  <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
-  <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
-  <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />  
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />  
-  <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
-  <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
-  <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" /> -->
-    
-  <!--Frameworks-->
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="TeamBliss-LP/android_frameworks_base" revision="lp5.0" />
+  <project path="frameworks/base" name="TeamBliss-LP/android_frameworks_base" remote="github" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -453,9 +401,7 @@
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
-  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />  
-  
-  <!--Hardware-->
+  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
@@ -492,8 +438,9 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  
-  <!--Packages-->
+  <project path="libcore" name="CyanogenMod/android_libcore" />
+  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
@@ -529,15 +476,15 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="TeamBliss-LP/android_packages_apps_Settings" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="TeamBliss-LP/android_packages_apps_Settings" remote="github" revision="lp5.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
+  <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
   <!-- <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" /> -->
-  <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
@@ -568,9 +515,8 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
-  <!-- <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" /> --> 
- 
-  <!--Prebuilts--> 
+  <!-- <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" /> -->
+  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
@@ -620,13 +566,7 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />  
- 
-  <!--Other Repos in Cm Manifest-->
-  <project path="libcore" name="CyanogenMod/android_libcore" />
-  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-5.0.0_r7" /> 
-  <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
@@ -648,7 +588,56 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project path="vendor/cm" name="TeamBliss-LP/android_vendor_cm" remote="github" revision="lp5.0" /> 
+  <project path="vendor/cm" name="TeamBliss-LP/android_vendor_cm" remote="github" revision="lp5.0" />  
+  
+  <!--TeamBliss repos
+
+  <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />  
+  <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
+  <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
+  <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
+  <project path="bionic" name="TeamBliss/android_bionic" revision="kk4.4" />
+  <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
+  <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
+  <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
+  <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" /> -->
+  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
+  <!--<project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
+  <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
+  <project path="packages/apps/Calculator" name="TeamBLiss/android_packages_apps_Calculator" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Camera2" name="TeamBliss/android_packages_apps_Camera2" revision="kk4.4" />
+  <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
+  <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
+  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
+  <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
+  <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
+  <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
+  <project path="packages/apps/OmniSwitch" name="TeamBliss/android_packages_apps_OmniSwitch" revision="kk4.4" />  
+  <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
+  <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
+  <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
+  <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
+  <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />  
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />  
+  <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
+  <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
+  <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
+  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" /> -->
+    
  
   <!--Vendor Repos-->
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
@@ -660,8 +649,5 @@
   <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
 
   <!--Additional Repos-->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.0" />
-  <project path="frameworks/opt/connectivity" name="CyanogenMod/android_frameworks_opt_connectivity" remote="github" revision="cm-11.0" />    
-
   
 </manifest>
