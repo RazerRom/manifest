@@ -6,6 +6,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BlissStalk trees, use this command:
 
+
     repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.0
 
 Then to sync up:
@@ -13,6 +14,7 @@ Then to sync up:
     repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
 
 Please see any of the official beanstalk XDA threads for building instructions.
+
 
 [See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
 
