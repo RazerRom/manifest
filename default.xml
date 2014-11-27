@@ -20,6 +20,9 @@
 
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
+          
+  <remote name="lgd"
+          fetch="https://github.com/lg-devs/" />
 
   <remote name="ln"
           fetch="https://android.git.linaro.org/" />
