@@ -640,7 +640,7 @@
     
  
   <!--Vendor Repos-->
-  <project path="vendor/cm" name="TeamBliss-LP/android_vendor_cm" remote="github" revision="lp5.0" />    
+  <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" remote="github" revision="lp5.0" />    
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
