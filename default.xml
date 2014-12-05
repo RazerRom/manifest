@@ -596,53 +596,10 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   
-  <!--TeamBliss repos
+  <!--TeamBliss repos -->
 
-  <project path="external/skia" name="TeamBliss/android_external_skia" revision="kk4.4" /> 
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="cm-11.0" />  
-  <project path="system/core" name="TeamBliss/platform_system_core" revision="kk4.4" />
-  <project path="system/media" name="TeamBliss/system_media" revision="kk4.4" />  
-  <project path="art" name="TeamBliss/android_art" revision="kk4.4" />
-  <project path="bionic" name="TeamBliss/android_bionic" revision="kk4.4" />
-  <project path="frameworks/av" name="TeamBliss/android_frameworks_av" revision="kk4.4" />
-  <project path="frameworks/base" name="TeamBliss/android_frameworks_base" revision="kk4.4" />
-  <project path="frameworks/native" name="TeamBliss/frameworks_native" revision="kk4.4" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/mms" name="TeamBliss/android_frameworks_opt_mms" revision="kk4.4" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="sr" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="TeamBliss/android_frameworks_opt_telephony" revision="kk4.4" /> -->
-  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="kk4.4" />
-  <!--<project path="packages/apps/BlissUpdater" name="TeamBliss/android_packages_apps_BlissUpdater" revision="kk4.4" />
-  <project path="packages/apps/Bluetooth" name="TeamBliss/android_packages_apps_Bluetooth" revision="kk4.4" />
-  <project path="packages/apps/Calculator" name="TeamBLiss/android_packages_apps_Calculator" revision="kk4.4" />
-  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="TeamBliss/android_packages_apps_Camera2" revision="kk4.4" />
-  <project path="packages/apps/CellBroadcastReceiver" name="TeamBliss/android_packages_apps_CellBroadcastReceiver" revision="kk4.4" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
-  <project path="packages/apps/Dialer" name="TeamBliss/android_packages_apps_Dialer" revision="kk4.4" />
-  <project path="packages/apps/Email" name="TeamBliss/android_packages_apps_Email" revision="kk4.4" />
-  <project path="packages/apps/Gallery2" name="TeamBliss/android_packages_apps_Gallery2" revision="kk4.4" />
-  <project path="packages/apps/InCallUI" name="TeamBliss/android_packages_apps_InCallUI" revision="kk4.4" />
-  <project path="packages/apps/KernelTweaker" name="TeamBliss/android_packages_apps_KernelTweaker" revision="kk4.4" />  
-  <project path="packages/apps/Mms" name="TeamBliss/android_packages_apps_Mms" revision="kk4.4" />
-  <project path="packages/apps/OmniSwitch" name="TeamBliss/android_packages_apps_OmniSwitch" revision="kk4.4" />  
-  <project path="packages/apps/PackageInstaller" name="TeamBliss/android_packages_apps_PackageInstaller" revision="kk4.4" />       
-  <project path="packages/apps/PhoneCommon" name="TeamBliss/android_packages_apps_PhoneCommon" revision="kk4.4" />
-  <project path="packages/apps/Settings" name="TeamBliss/android_packages_apps_Settings" revision="kk4.4" /> 
-  <project path="packages/apps/Stk" name="TeamBliss/android_packages_apps_Stk" revision="kk4.4" /> 
-  <project path="packages/apps/UnifiedEmail" name="TeamBliss/android_packages_apps_UnifiedEmail" revision="kk4.4" />
-  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="sr" revision="kk4.4" />  
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sr" revision="kk4.4" />  
-  <project path="packages/providers/ContactsProvider" name="TeamBliss/android_packages_providers_ContactsProvider" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="TeamBliss/android_packages_providers_DownloadProvider" revision="kk4.4" />
-  <project path="packages/providers/MediaProvider" name="TeamBliss/packages_providers_MediaProvider" revision="kk4.4" />  
-  <project path="packages/providers/TelephonyProvider" name="TeamBliss/android_packages_providers_TelephonyProvider" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="TeamBliss/android_packages_services_Telephony" revision="kk4.4" />  
-  <project path="vendor/bliss" name="TeamBliss/proprietary_vendor_bliss" revision="kk4.4" /> -->
+  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="lp5.0" />
+  <project path="packages/apps/PacPerformance" name="TeamBliss/android_packages_apps_PacPerformance" revision="lp5.0" />  
     
  
   <!--Vendor Repos-->
