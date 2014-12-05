@@ -598,8 +598,8 @@
   
   <!--TeamBliss repos -->
 
-  <project path="packages/apps/BlissPapers" name="TeamBliss/android_packages_apps_BlissPapers" revision="lp5.0" />
-  <project path="packages/apps/PacPerformance" name="TeamBliss/android_packages_apps_PacPerformance" revision="lp5.0" />  
+  <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" />
+  <project path="packages/apps/PACPerformance" name="TeamBliss-LP/android_packages_apps_PACPerformance" revision="lp5.0" />  
     
  
   <!--Vendor Repos-->
