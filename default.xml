@@ -613,6 +613,7 @@
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
+  <project path="vendor/samsung/galaxys2plus-common" name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" remote="github" revision="lp5.0" />
 
   <!--Additional Repos-->
   
