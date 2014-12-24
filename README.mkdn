@@ -23,4 +23,4 @@ please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization
 
 GERRIT PAGE:
 review.blissroms.com:8081
-TESTING PUSH ACCESS TO Git
+TESTING PUSH ACCESS TO Git with new settings
