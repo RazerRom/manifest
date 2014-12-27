@@ -469,7 +469,7 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="TeamBliss-LP/android_packages_apps_Contacts" remote="github" revision="lp5.0"/>
   <project path="packages/apps/ContactsCommon" name="TeamBliss-LP/android_packages_apps_ContactsCommon" remote="github" revision="lp5.0" />
-  <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" remote="github" reision="lp5.0" />
+  <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" remote="github" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="TeamBliss-LP/android_packages_apps_Dialer" remote="github" revision="lp5.0" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
