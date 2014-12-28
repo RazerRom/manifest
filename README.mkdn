@@ -1,7 +1,7 @@
 Getting Started
 ---------------
 
-To get started with Android/BlissStalk, you'll need to get
+To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BlissStalk trees, use this command:
@@ -23,3 +23,6 @@ please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization
 
 GERRIT PAGE:
 review.blissroms.com:8081
+
+If you would like to contribute to the blissrom project submit patches to:
+ssh://review.blissroms.com:29418
