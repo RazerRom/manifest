@@ -26,4 +26,3 @@ review.blissroms.com:8081
 
 If you would like to contribute to the blissrom project submit patches to:
 ssh://review.blissroms.com:29418
-WORK U BASTARD AAAAAA
