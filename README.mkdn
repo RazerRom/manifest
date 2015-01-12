@@ -4,7 +4,7 @@ Getting Started
 To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BlissStalk trees, use this command:
+To initialize your local repository using the BlissPop trees, use this command:
 
 
     repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.0
