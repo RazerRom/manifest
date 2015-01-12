@@ -2,5 +2,5 @@
 user=pjgraber03
 host=review.blissroms.com
 port=29418
-project=TeamBliss-LP/android.git
+project=android.git
 defaultbranch=lp5.0

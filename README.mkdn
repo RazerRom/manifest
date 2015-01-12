@@ -1,4 +1,4 @@
-Getting Started TESTING BRANCH PUSH
+Getting Started 
 ---------------
 
 To get started with Android/BlissPop, you'll need to get
