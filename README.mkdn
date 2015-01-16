@@ -12,3 +12,15 @@ To initialize your local repository using the BlissPopGM trees, use this command
 Then to sync up:
 
     repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
+    
+To build:
+
+    . build/envsetup.sh && brunch hammerhead
+
+or
+
+    . build/envsetup.sh && time brunch hammerhead (to see how long tour build took)
+    
+Make sure to:
+
+    make clean (every now and then)
