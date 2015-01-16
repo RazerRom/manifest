@@ -15,6 +15,9 @@
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/" />
           
+  <remote name="gm"
+          fetch="https://github.com/BlissPopGM/" />
+          
   <remote name="TeamBliss-LP"
           fetch="https://github.com/TeamBliss-LP/" />
 
@@ -58,12 +61,7 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
-  <project path="build" name="TeamBliss-LP/android_build" remote="github" revision="lp5.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <project path="android" name="CyanogenMod/android" />
+           
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -371,7 +369,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" remote="github" revision="lp5.0" />
-  <project path="frameworks/base" name="TeamBliss-LP/android_frameworks_base" remote="github" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -486,7 +483,6 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="TeamBliss-LP/android_packages_apps_PhoneCommon" remote="github" revision="lp5.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="TeamBliss-LP/android_packages_apps_Settings" remote="github" revision="lp5.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -601,8 +597,16 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 
   
+  <!-- BlissPopGM Repos -->
+  <project path="android" name="android" remote="gm" revision="lp5.0" />
+  <project path="build" name="build" remote="gm" revision="lp5.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="frameworks/base" name="frameworks_base" remote="gm" revision="lp5.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gm" revision="lp5.0" />
+  <project path="vendor/bliss" name="vendor_bliss" remote="gm" revision="lp5.0" />
+  
   <!--TeamBliss repos -->
-
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" />
   <project path="packages/apps/CameraNext" name="TeamBliss-LP/packages_apps_CameraNext" revision="lp5.0" />  
@@ -612,7 +616,6 @@
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
  
   <!--Vendor Repos-->
-  <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" remote="github" revision="lp5.0" />    
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
   <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
@@ -623,7 +626,6 @@
   <project path="vendor/samsung/galaxys2plus-common" name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" remote="github" revision="lp5.0" />
 
   <!--Additional Repos-->
-  
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
   
