@@ -17,9 +17,9 @@ To build:
 
     . build/envsetup.sh && brunch hammerhead
 
-or
+Or
 
-    . build/envsetup.sh && time brunch hammerhead (to see how long tour build took)
+    . build/envsetup.sh && time brunch hammerhead (to see how long your build took)
     
 Make sure to:
 
