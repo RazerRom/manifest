@@ -1,28 +1,14 @@
 Getting Started 
 ---------------
 
-To get started with Android/BlissPop, you'll need to get
+To get started with Android/BlissPopGM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the BlissPop trees, use this command:
+To initialize your local repository using the BlissPopGM trees, use this command:
 
 
-    repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.0
+    repo init -u https://github.com/BlissPopGM/android.git -b lp5.0
 
 Then to sync up:
 
     repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
-
-Please see any of the official beanstalk XDA threads for building instructions.
-
-
-[See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
-
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
-
-GERRIT PAGE:
-review.blissroms.com:8081
-
-If you would like to contribute to the blissrom project submit patches to:
-ssh://review.blissroms.com:29418. Then head into the project and clone it locally make changes and push back to bliss review.
