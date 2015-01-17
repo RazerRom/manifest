@@ -18,6 +18,9 @@
   <remote name="gm"
           fetch="https://github.com/BlissPopGM/" />
           
+  <remote name="gh"
+          fetch="https://github.com/" />
+          
   <remote name="TeamBliss-LP"
           fetch="https://github.com/TeamBliss-LP/" />
 
