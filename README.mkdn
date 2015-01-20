@@ -17,11 +17,11 @@ To build for your device, and use PREBUILT_CHROMIUM Command.
 
 . build/envsetup.sh
 
-breakfast <device>
+breakfast *device name here*
 
 export USE_PREBUILT_CHROMIUM=1
 
-brunch <device>
+brunch *device name here*
 
 or make is all one line.
 
