@@ -25,7 +25,7 @@ brunch *device name here*
 
 or make is all one line.
 
-. build/envsetup.sh && breakfast <device> && export USE_PREBUILT_CHROMIUM=1 && brunch <device>
+. build/envsetup.sh && breakfast *device name here* && export USE_PREBUILT_CHROMIUM=1 && brunch *device name here*
 
 
 [See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
