@@ -20,6 +20,10 @@ To build:
 Or
 
     . build/envsetup.sh && time brunch hammerhead (to see how long your build took)
+
+To build for your device, and use PREBUILT_CHROMIUM Command.
+
+    . build/envsetup.sh && breakfast hammerhead && export USE_PREBUILT_CHROMIUM=1 && brunch hammerhead
     
 Make sure to:
 
