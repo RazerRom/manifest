@@ -13,7 +13,19 @@ Then to sync up:
 
     repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
 
-Please see any of the official beanstalk XDA threads for building instructions.
+To build for your device, and use PREBUILT_CHROMIUM Command.
+
+. build/envsetup.sh
+
+breakfast <device>
+
+export USE_PREBUILT_CHROMIUM=1
+
+brunch <device>
+
+or make is all one line.
+
+. build/envsetup.sh && breakfast <device> && export USE_PREBUILT_CHROMIUM=1 && brunch <device>
 
 
 [See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
