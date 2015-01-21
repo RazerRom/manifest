@@ -371,7 +371,6 @@
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="frameworks/av" name="TeamBliss-LP/android_frameworks_av" groups="pdk" remote="github" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -380,7 +379,6 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="TeamBliss-LP/android_frameworks_native" groups="pdk" remote="github" revision="lp5.0" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -487,7 +485,6 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="gh" revision="cm-12.0" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
@@ -601,16 +598,20 @@
   <project path="build" name="build" remote="gm" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="frameworks/base" name="frameworks_base" remote="gm" revision="lp5.0" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="gm" revision="lp5.0"/>
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="gm" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="gm" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gm" revision="lp5.0" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="gm" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="gm" revision="lp5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="gm" revision="lp5.0" />
   <project path="vendor/bliss" name="vendor_bliss" remote="gm" revision="lp5.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="gm" revision="lp5.0" />
   
   <!--TeamBliss repos -->
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
@@ -619,16 +620,6 @@
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.0" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" />
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
- 
-  <!--Vendor Repos-->
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
-  <project path="vendor/htc" name="TeamBliss-Devices/proprietary_vendor_htc" remote="github" revision="lp5.0" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
-  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.0" />
-  <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
-  <project path="vendor/samsung/galaxys2plus-common" name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" remote="github" revision="lp5.0" />
 
   <!--Additional Repos-->
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
