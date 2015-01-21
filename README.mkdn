@@ -41,7 +41,7 @@ HOW TO SUBMIT TO OUR GERRIT:
 
 First and foremost, setup your github with out Gerrit.
 
-Clone the repo you would like to commit to from the Gerrit (http://review.blissroms.com:8081/#/admin/projects/)
+Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
    -Select from the list and copy clone command line.
 
 Make sure you have git review installed
