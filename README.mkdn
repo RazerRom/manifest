@@ -28,8 +28,6 @@ or make is all one line.
 . build/envsetup.sh && breakfast *device name here* && export USE_PREBUILT_CHROMIUM=1 && brunch *device name here*
 
 
-[See Here](http://forum.xda-developers.com/showpost.php?p=55015279&postcount=3)
-
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
@@ -38,3 +36,19 @@ review.blissroms.com:8081
 
 If you would like to contribute to the blissrom project submit patches to:
 ssh://review.blissroms.com:29418. Then head into the project and clone it locally make changes and push back to bliss review.
+
+HOW TO SUBMIT TO OUR GERRIT:
+
+First and foremost, setup your github with out Gerrit.
+
+Clone the repo you would like to commit to from the Gerrit (http://review.blissroms.com:8081/#/admin/projects/)
+   -Select from the list and copy clone command line.
+
+Make sure you have git review installed
+   - sudo apt-get install git-review
+   
+Make sure you are on the correct branch----lp5.0
+
+Make you change and commit it
+
+Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
