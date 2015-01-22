@@ -55,7 +55,7 @@
           fetch="https://github.com/VanirAOSP/" />
           
   <remote name="du"
-          fetch="https://github.com/DirtyUnicorns-KitKat/" />                      
+          fetch="https://github.com/DirtyUnicorns/" />                      
           
    <remote  name="teameos"
            fetch="https://github.com/teameos/" />         
