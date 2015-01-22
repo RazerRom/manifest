@@ -28,3 +28,19 @@ To build for your device, and use PREBUILT_CHROMIUM Command.
 Make sure to:
 
     make clean (every now and then)
+
+HOW TO SUBMIT TO OUR GERRIT:
+
+First and foremost, setup your github with out Gerrit.
+
+Clone the repo you would like to commit to from the Gerrit [Project List] (http://review.blissroms.com:8081/#/admin/projects/)
+   -Select from the list and copy clone command line.
+
+Make sure you have git review installed
+   - sudo apt-get install git-review
+   
+Make sure you are on the correct branch----lp5.0
+
+Make you change and commit it
+
+Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
