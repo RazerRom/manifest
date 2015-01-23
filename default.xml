@@ -29,7 +29,10 @@
           
   <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
-          
+  
+  <remote name="lsd"
+          fetch="https://github.com/LiquidSmooth-Devices/" />
+        
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
