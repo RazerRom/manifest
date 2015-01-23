@@ -21,26 +21,8 @@
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
           
-  <remote name="lgd"
-          fetch="https://github.com/lg-devs/" />
-
-  <remote name="ln"
-          fetch="https://android.git.linaro.org/" />
-
-  <remote name="lsd"
-          fetch="https://github.com/LiquidSmooth-Devices/" />
-          
-  <remote  name="omnirom"
-           fetch="https://github.com/omnirom" />          
-
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
-
-  <remote name="ls"
-          fetch="https://github.com/LiquidSmooth/" />
-
-  <remote name="sr"
-          fetch="https://github.com/SlimRoms/" />
 
   <remote name="tm"
           fetch="https://github.com/TheMuppets/" />
@@ -48,12 +30,6 @@
   <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
           
-  <remote name="du"
-          fetch="https://github.com/DirtyUnicorns/" />                      
-          
-   <remote  name="teameos"
-           fetch="https://github.com/teameos/" />         
-
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
