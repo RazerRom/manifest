@@ -479,7 +479,6 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -586,6 +585,7 @@
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="gm" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="gm" revision="lp5.0" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="gm" revision="lp5.0" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="gm" revision="lp5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="gm" revision="lp5.0" />
   <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="gm" revision="lp5.0" />
   <project path="system/core" name="system_core" groups="pdk" remote="gm" revision="lp5.0" />
