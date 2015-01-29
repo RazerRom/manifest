@@ -43,7 +43,6 @@
            
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
@@ -567,6 +566,7 @@
   
   <!-- BlissPopGM Repos -->
   <project path="android" name="android" remote="gm" revision="lp5.0" />
+  <project path="art" name="art" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="build" name="build" remote="gm" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
