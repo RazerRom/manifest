@@ -371,6 +371,7 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -443,13 +444,17 @@
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
   <!-- <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /> -->
   <!-- <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" /> -->
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="TeamBliss-LP/android_packages_apps_DeskClock" remote="github" revision="lp5.0" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -564,11 +569,6 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="frameworks/base" name="frameworks_base" remote="gm" revision="lp5.0" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="gm" revision="lp5.0" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="gm" revision="lp5.0" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="gm" revision="lp5.0" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="gm" revision="lp5.0" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="gm" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="gm" revision="lp5.0" />
