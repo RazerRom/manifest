@@ -566,6 +566,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="gm" revision="lp5.0" />
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="gm" revision="lp5.0" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="frameworks/base" name="frameworks_base" remote="gm" revision="lp5.0" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gm" revision="lp5.0" />
