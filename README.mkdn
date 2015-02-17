@@ -1,15 +1,13 @@
 Getting Started 
 ---------------
 
-NOTE: This branch is to build the ROM & KERNEL with sabermod 4.9 toolchains
-
 To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the BlissPop trees, use this command:
 
 
-    repo init -u https://github.com/TeamBliss-LP/android.git -b sabermod/lp5.0
+    repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.0
 
 Then to sync up:
 
@@ -49,7 +47,7 @@ Clone the repo you would like to commit to from the Gerrit [Project List](http:/
 Make sure you have git review installed
    - sudo apt-get install git-review
    
-Make sure you are on the correct branch----sabermod/lp5.0
+Make sure you are on the correct branch----lp5.0
 
 Make you change and commit it
 
