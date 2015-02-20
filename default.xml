@@ -541,6 +541,7 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />  
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
@@ -609,24 +610,26 @@
   
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
+     
+  <!-- SABERMOD ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
   
-  <!-- BlissPop Themes -->
-  <project path="packages/themes/DeepDarkness" name="TeamBliss-LP/android_packages_themes_DeepDarkness" revision="lp5.0" />
-    
-  <!-- CUSTOM ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
+  <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="tv" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="tv" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="tv" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />  
   
-   <!-- CUSTOM KERNEL TOOLCHAINS -->
+   <!-- LINARO ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" remote="vr" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vr" revision="L5" />
+  
+  <!-- LINARO KERNEL TOOLCHAINS -->  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="linaro-arm-eabi-4.8" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="linaro-arm-eabi-4.9" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-linaro" name="linaro-arm-eabi-4.10" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" />
   
 </manifest>
