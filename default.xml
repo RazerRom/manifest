@@ -553,7 +553,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="prebuilts_gcc-linux-x86_arm_arm-linux-androideabi-4.9-linaro" remote="vr" revision="L5" />
   
   <!-- CUSTOM KERNEL TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2014" remote="vr" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-linaro" name="LINARO-OTTER" remote="gm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="linaro-arm-eabi-4.8" remote="gm" revision="lp5.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="linaro-arm-eabi-4.9" remote="gm" revision="lp5.0" />
