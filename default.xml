@@ -296,7 +296,6 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -520,6 +519,7 @@
   </project>
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="gm" revision="lp5.0" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="gm" revision="lp5.0" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="gm" revision="lp5.0" />
   <project path="external/skia" name="external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="gm" revision="lp5.0" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gm" revision="lp5.0" />
