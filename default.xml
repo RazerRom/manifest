@@ -5,14 +5,10 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="github"
+  <remote  name="xda"
            fetch=".."
-           review="review.cyanogenmod.org" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote name="cm"
+  <remote name="CyanogenMod"
           fetch="https://github.com/CyanogenMod/" />
 
   <remote name="gm"
