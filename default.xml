@@ -126,7 +126,6 @@
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -190,7 +189,6 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/pixman" name="platform/external/pixman" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -207,7 +205,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -296,7 +293,6 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -305,7 +301,6 @@
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
@@ -314,7 +309,6 @@
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/google" name="CyanogenMod/android_external_google" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock"/>
@@ -416,7 +410,6 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
@@ -453,7 +446,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -499,7 +491,6 @@
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
 
   <!--TeamBliss repos -->
@@ -516,19 +507,27 @@
 
   <!-- BlissPopGM Repos -->
   <project path="android" name="android" remote="gm" revision="lp5.0" />
-  <project path="art" name="art" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="bionic" name="bionic" groups="pdk" remote="gm" revision="lp5.0" />
+  <project path="art" name="art" remote="gm" revision="lp5.0" />
+  <project path="bionic" name="bionic" remote="gm" revision="lp5.0" />
   <project path="build" name="build" remote="gm" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="gm" revision="lp5.0" />
   <project path="device/lge/mako" name="android_device_lge_mako" remote="gm" revision="lp5.0" />
-  <project path="external/jpeg" name="external_jpeg" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="external/skia" name="external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="gm" revision="lp5.0" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gm" revision="lp5.0" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="gm" revision="lp5.0" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="gm" revision="lp5.0" />
+  <project path="external/fuse" name="external_fuse" remote="gm" revision="lp5.0" />
+  <project path="external/iputils" name="external_iputils" remote="gm" revision="lp5.0" />
+  <project path="external/jpeg" name="external_jpeg" remote="gm" revision="lp5.0" />
+  <project path="external/pdfium" name="external_pdfium" remote="gm" revision="lp5.0" />
+  <project path="external/skia" name="external_skia" remote="gm" revision="lp5.0" />
+  <project path="external/stlport" name="external_stlport" remote="gm" revision="lp5.0" />
+  <project path="frameworks/av" name="frameworks_av" remote="gm" revision="lp5.0" />
   <project path="frameworks/base" name="frameworks_base" remote="gm" revision="lp5.0" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gm" revision="lp5.0" />
+  <project path="frameworks/native" name="frameworks_native" remote="gm" revision="lp5.0" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gm" revision="lp5.0" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="gm" revision="lp5.0" />
+  <project path="libcore" name="libcore" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="gm" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="gm" revision="lp5.0" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="gm" revision="lp5.0" />
@@ -540,8 +539,9 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="gm" revision="lp5.0" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="gm" revision="lp5.0" />
   <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="gm" revision="lp5.0" />
-  <project path="system/core" name="system_core" groups="pdk" remote="gm" revision="lp5.0" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gm" revision="lp5.0" />
+  <project path="system/core" name="system_core" remote="gm" revision="lp5.0" />
+  <project path="system/qcom" name="system_qcom" remote="gm" revision="lp5.0" />
+  <project path="system/vold" name="system_vold" remote="gm" revision="lp5.0" />
   <project path="vendor/bliss" name="vendor_bliss" remote="gm" revision="lp5.0" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="gm" revision="lp5.0" /> 
 
