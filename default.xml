@@ -29,7 +29,7 @@
           fetch="https://github.com/TheMuppets/" />
           
   <remote  name="tv"
-           fetch="https://github.com/Team-Validus/" />
+           fetch="git://github.com/Team-Validus/" />
           
   <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
