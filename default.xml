@@ -489,7 +489,6 @@
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
 
   <!--TeamBliss repos -->
-  <project path="frameworks/webview" name="TeamBliss-LP/android_frameworks_webview" remote="github" revision="lp5.0" />
   <project path="packages/apps/AudioFX" name="TeamBliss-LP/android_packages_apps_AudioFX" remote="github" revision="lp5.0" />
   <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" />
   <project path="packages/apps/Bluetooth" name="TeamBliss-LP/android_packages_apps_Bluetooth" remote="github" revision="lp5.0" />
@@ -507,8 +506,8 @@
   <project path="build" name="build" remote="gm" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="gm" revision="lp5.0" />
-  <project path="device/lge/mako" name="android_device_lge_mako" remote="gm" revision="lp5.0" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="gm" revision="lp5.0" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="gm" revision="lp5.0" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="gm" revision="lp5.0" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="gm" revision="lp5.0" />
   <project path="external/fuse" name="external_fuse" remote="gm" revision="lp5.0" />
@@ -522,12 +521,13 @@
   <project path="frameworks/native" name="frameworks_native" remote="gm" revision="lp5.0" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="gm" revision="lp5.0" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="gm" revision="lp5.0" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="gm" revision="lp5.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gm" revision="lp5.0" />
   <project path="libcore" name="libcore" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="gm" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="gm" revision="lp5.0" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="gm" revision="lp5.0" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="gm" revision="lp5.0" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="gm" revision="lp5.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="gm" revision="lp5.0" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="gm" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="gm" revision="lp5.0" />
