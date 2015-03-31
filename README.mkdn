@@ -31,7 +31,10 @@ or make is all one line.
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
-GERRIT PAGE:
+***
+
+GERRIT
+------
 review.blissroms.com
 
 If you would like to contribute to the blissrom project submit patches to:
@@ -53,28 +56,29 @@ Make you change and commit it
 
 Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
 
-BLISS BUILD FLAGS.
+BLISS BUILD FLAGS
+-----------------
 
 These can be added to your device trees BoardConfig.mk
 
-BLISS_STRICT:= true    "run strict aliasing"
+`BLISS_STRICT:= true`    "run strict aliasing"
 
-BLISS_O3 := true   run   "O3 optimizations on build"
+`BLISS_O3 := true`   run   "O3 optimizations on build"
 
-BLISS_GRAPHITE := true    "run Graphite optimiations on build"
+`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
 
-BLISS_KRAIT := true    "run krait optimizations on build-- CPU specific, please verify if you can use this"
+`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
 
-BLISS_PIPE := true   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
+`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
 
-TARGET_TC_ROM := "@@" Specify toolchain for Rom to be compiled with
+`TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
 
-TARGET_TC_KERNEL := "@@" Specify toolchain for kernel to be complied with.
+`TARGET_TC_KERNEL := "@@"` Specify toolchain for kernel to be complied with.
 
 @@= Toolchains are located in prebuilts/gcc/linux-x86/arm You only need to specify the end number be it 4.8-sm for 4.8 SaberMod Toolchain, this goes for both ROM and KERNEL.
 
 If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to BoardConfig.mk as well
 
-TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)
+`TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)`
 
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)
+`TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
