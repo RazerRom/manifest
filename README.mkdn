@@ -82,3 +82,5 @@ If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to Bo
 `TARGET_GCC_VERSION_EXP := $(TARGET_TC_ROM)`
 
 `TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
+
+Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`
