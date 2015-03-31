@@ -10,15 +10,16 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote name="TeamBliss-LP"
+          fetch="https://github.com/TeamBliss-LP/"
+	  review="review.blissroms.com" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
            
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/" />
           
-  <remote name="TeamBliss-LP"
-          fetch="https://github.com/TeamBliss-LP/" />
-
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
           
@@ -602,7 +603,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.0" />
 
   
   <!--TeamBliss repos -->
