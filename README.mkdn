@@ -38,7 +38,7 @@ GERRIT
 review.blissroms.com
 
 If you would like to contribute to the blissrom project submit patches to:
-ssh://review.blissroms.com:29418. Then head into the project and clone it locally make changes and push back to bliss review.
+`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
 
 HOW TO SUBMIT TO OUR GERRIT:
 
