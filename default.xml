@@ -38,6 +38,8 @@
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
         
+  <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
   <default revision="refs/heads/staging/cm-12.1"
            remote="github"
            sync-c="true"
