@@ -57,7 +57,7 @@ BLISS BUILD FLAGS.
 
 These can be added to your device trees BoardConfig.mk
 
-BLISS_STRICT:= true    "run strict alasing"
+BLISS_STRICT:= true    "run strict aliasing"
 
 BLISS_O3 := true   run   "O3 optimizations on build"
 
