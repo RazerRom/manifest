@@ -53,7 +53,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="bionic" name="TeamBliss-LP/android_bionic" groups="pdk" remote="github" revision="lp5.1" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -209,7 +209,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/jpeg" name="TeamBliss-LP/android_external_jpeg" groups="pdk" remote="github" revision="lp5.0" />
+  <project path="external/jpeg" name="TeamBliss-LP/android_external_jpeg" groups="pdk" remote="github" revision="lp5.1" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
