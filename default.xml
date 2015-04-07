@@ -586,7 +586,9 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="br" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="br" revision="lp5.1" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="br" revision="lp5.1" />
+  <project path="packages/apps/FloatingActionButton" name="packages_apps_FloatingActionButton" remote="br" revision="lp5.1" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="br" revision="lp5.1" />
+  <project path="packages/apps/KernelAdiutor" name="packages_apps_KernelAdiutor" remote="br" revision="lp5.1" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="br" revision="lp5.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="br" revision="lp5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="br" revision="lp5.1" />
