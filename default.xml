@@ -514,7 +514,7 @@
   <!-- <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" /> -->
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <!-- <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" /> -->
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
@@ -528,7 +528,6 @@
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
@@ -581,6 +580,7 @@
   <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lp5.1" />
   <project path="manifest" name="manifest" remote="br" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="br" revision="lp5.1" />
+  <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="br" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="br" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="br" revision="lp5.1" />
@@ -592,6 +592,7 @@
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="br" revision="lp5.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms" remote="br" revision="lp5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="br" revision="lp5.1" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="br" revision="lp5.1" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="br" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="br" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="br" revision="lp5.1" />
@@ -602,7 +603,6 @@
   <!-- BlissRom Repos End -->
   
   <!-- TeamBliss Repos Start -->
-  <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" remote="gh" revision="lp5.0" />
   <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" remote="gh" revision="lp5.0" />
   <!-- <project path="packages/apps/DeviceControl" name="TeamBliss-LP/android_packages_apps_DeviceControl" remote="gh" revision="lp5.0" /> -->
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" remote="gh" revision="lp5.1" /> 
