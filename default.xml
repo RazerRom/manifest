@@ -150,7 +150,7 @@
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/deqp" name="platform/external/deqp" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" />
+  <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
@@ -385,7 +385,7 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
+  <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="TeamBliss-LP/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lp5.1" />
@@ -653,10 +653,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
 
-  <!-- LINARO KERNEL TOOLCHAINS -->  
+  <!-- LINARO KERNEL TOOLCHAINS
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-linaro" name="UBERTC/arm-eabi-5.0" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" />
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" /> -->  
   
 </manifest>
