@@ -641,7 +641,7 @@
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
-  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="SmokeyMcBong/sm-arm-androideabi-5.0" remote="bitbucket" revision="master" />
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="tv" revision="master" />
