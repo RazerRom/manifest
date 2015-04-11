@@ -490,7 +490,7 @@
   <project path="packages/apps/LockClock" name="TeamBliss-LP/android_packages_apps_LockClock" remote="github" revision="lp5.1" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" name="TeamBliss-LP/android_packages_apps_Mms-caf" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="AICP/android_packages_apps_Nfc" remote="github" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
