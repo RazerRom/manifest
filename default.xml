@@ -385,7 +385,7 @@
   <project path="frameworks/opt/net/ethernet" name="CyanogenMod/android_frameworks_opt_net_ethernet" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
-  <project path="frameworks/opt/net/wifi" name="TeamBliss-LP/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="lp5.1" />
+  <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="TeamBliss-LP/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lp5.1" />
