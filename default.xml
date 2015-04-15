@@ -573,6 +573,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="br" revision="lp5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="br" revision="lp5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="br" revision="lp5.1" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="br" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="br" revision="lp5.1" />
   <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lp5.1" />
   <project path="manifest" name="manifest" remote="br" revision="lp5.1" />
@@ -610,7 +611,6 @@
   <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" groups="pdk-cw-fs" remote="gh" revision="cm-12.1" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" remote="gh" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" remote="gh" revision="n-2.0" />
-  <project path="frameworks/opt/net/wifi" name="temasek/android_frameworks_opt_net_wifi" groups="pdk" remote="gh" revision="cm-12.1" />
   <project path="hardware/samsung" name="TeamBliss-Devices/android_hardware_samsung" remote="gh" revision="lp5.0" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="gh" revision="android-5.0" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="gh" revision="lp5.1" />
