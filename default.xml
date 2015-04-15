@@ -577,7 +577,7 @@
   <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lp5.1" />
   <project path="manifest" name="manifest" remote="br" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="br" revision="lp5.1" />
-  <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" />
+  <!-- <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" /> -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="br" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="br" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="br" revision="lp5.1" />
