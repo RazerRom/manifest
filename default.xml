@@ -379,7 +379,6 @@
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
-  <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
@@ -411,7 +410,6 @@
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" />
@@ -500,7 +498,6 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
@@ -556,7 +553,6 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -574,13 +570,16 @@
   </project>
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="br" revision="lp5.1" />
   <project path="external/jpeg" name="external_jpeg" remote="br" revision="lp5.1" />
+  <project path="external/libpng" name="external_libpng" remote="br" revision="lp5.1" />
   <project path="external/skia" name="external_skia" remote="br" revision="lp5.1" />
+  <project path="external/sqlite" name="external_sqlite" remote="br" revision="lp5.1" />
   <project path="frameworks/av" name="frameworks_av" remote="br" revision="lp5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="br" revision="lp5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="br" revision="lp5.1" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="br" revision="lp5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="br" revision="lp5.1" />
   <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lp5.1" />
+  <project path="libcore" name="libcore" remote="br" revision="lp5.1" />
   <project path="manifest" name="manifest" remote="br" revision="lp5.1" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="br" revision="lp5.1" />
   <!-- <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" /> -->
@@ -600,7 +599,8 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="br" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="br" revision="lp5.1" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="br" revision="lp5.1" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="br" revision="lp5.1" />
+  <project path="system/core" name="system_core" remote="br" revision="lp5.1" />
+  <project path="system/vold" name="system_vold" remote="br" revision="lp5.1" />
   <project path="vendor/bliss" name="vendor_bliss" remote="br" revision="lp5.1" />    
   <project path="vendor/lge" name="vendor_lge" remote="br" revision="lp5.1" />
   <!-- BlissRom Repos End -->
