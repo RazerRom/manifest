@@ -631,13 +631,13 @@
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.1" />  
   <project path="vendor/samsung" name="TeamBliss-Devices/proprietary_vendor_samsung" remote="github" revision="lp5.1" />
   <project path="vendor/htc" name="TeamBliss-Devices/proprietary_vendor_htc" remote="github" revision="lp5.1" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
+  <project path="vendor/motorola" name="TeamBliss-Devices/proprietary_vendor_motorola" remote="github" revision="lp5.1" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/i9082" name="TeamBliss/android_vendor_samsung_i9082" remote="github" revision="kk4.4" />
   <project path="vendor/samsung/galaxys2plus-common" name="TeamBliss-Devices/proprietary_vendor_samsung_galaxys2plus-common" remote="github" revision="lp5.0" />
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.1" />
-  <project path="vendor/moto/shamu" name="pjgraber03/vendor_moto_shamu" remote="github" revision="5.1" />
+<!--  <project path="vendor/moto/shamu" name="pjgraber03/vendor_moto_shamu" remote="github" revision="5.1" /> -->
 
   <!--Additional Repos-->
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
