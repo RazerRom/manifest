@@ -503,7 +503,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver"/>
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
@@ -584,6 +583,7 @@
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="br" revision="lp5.1" />
   <!-- <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" /> -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="br" revision="lp5.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="br" revision="lp5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="br" revision="lp5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="br" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="br" revision="lp5.1" />
