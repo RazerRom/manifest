@@ -629,7 +629,7 @@
  
   <!--Vendor Repos-->
   <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" remote="github" revision="lp5.1" />    
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
+  <project path="vendor/lge" name="TeamBliss-Devices/proprietary_vendor_lge" remote="github" revision="lp5.1" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.1" />  
   <project path="vendor/samsung" name="TeamBliss-Devices/proprietary_vendor_samsung" remote="github" revision="lp5.1" />
   <project path="vendor/htc" name="TeamBliss-Devices/proprietary_vendor_htc" remote="github" revision="lp5.1" />
@@ -645,8 +645,7 @@
   <!--  <project path="vendor/moto/shamu" name="pjgraber03/vendor_moto_shamu" remote="github" revision="5.1" /> -->
 
   <!--Additional Repos-->
-  <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
-  
+  <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> 
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
      
