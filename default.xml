@@ -668,7 +668,8 @@
   <!-- LINARO KERNEL TOOLCHAINS --> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-linaro" name="UBERTC/arm-eabi-5.0" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-linaro" name="UBERTC/arm-eabi-5.1" remote="bitbucket" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" /> 
   
 </manifest>
