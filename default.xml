@@ -324,7 +324,6 @@
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
-  <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -531,7 +530,6 @@
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
@@ -566,6 +564,7 @@
   <project path="build" name="build" remote="br" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="development" name="development" remote="br" revision="lp5.1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="br" revision="lp5.1" />
   <project path="external/jpeg" name="external_jpeg" remote="br" revision="lp5.1" />
   <project path="external/libpng" name="external_libpng" remote="br" revision="lp5.1" />
@@ -596,6 +595,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="br" revision="lp5.1" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="br" revision="lp5.1" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="br" revision="lp5.1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="br" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="br" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="br" revision="lp5.1" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="br" revision="lp5.1" />
