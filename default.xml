@@ -621,7 +621,7 @@
   <!--TeamBliss repos -->
 
   <!-- <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" /> -->
-  <project path="packages/apps/KernelAdiutor" name="SlimSaber/android_packages_apps_KernelAdiutor" revision="lp5.0" />
+  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" revision="lp5.0" />
   <project path="packages/apps/FloatingActionButton" name="TeamBliss-LP/android-floating-action-button"  remote="github" revision="lp5.1" />
   <!-- <project path="frameworks/support" name="TeamBliss-LP/platform_frameworks_support" remote="github" revision="lp5.1" /> -->
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.1" /> 
