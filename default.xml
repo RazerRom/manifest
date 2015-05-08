@@ -563,6 +563,7 @@
   </project>
   <project path="development" name="development" remote="br" revision="lp5.1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="br" revision="lp5.1" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="br" revision="lp5.1" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="br" revision="lp5.1" />
   <project path="external/chromium_org" name="external_chromium_org" remote="br" revision="lp5.1" />
   <project path="external/chromium_org/third_party/WebKit" name="external_chromium_org_third_party_WebKit" remote="br" revision="lp5.1" />
