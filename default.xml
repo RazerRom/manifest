@@ -12,35 +12,35 @@
 
   <remote name="TeamBliss-LP"
           fetch="https://github.com/TeamBliss-LP/"
-	  review="review.blissroms.com" />
+          review="review.blissroms.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-           
+
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/" />
-          
+
   <remote name="TeamBliss-Devices"
           fetch="https://github.com/TeamBliss-Devices/" />
-          
+
   <remote name="TeamBliss"
           fetch="https://github.com/TeamBliss/" />
 
   <remote name="tm"
           fetch="https://github.com/TheMuppets/" />
-          
+
   <remote  name="tv"
            fetch="https://github.com/Team-Validus/" />
-          
+
   <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
-  
+
   <remote name="lsd"
           fetch="https://github.com/LiquidSmooth-Devices/" />
-        
+
   <remote name="bitbucket" 
           fetch="https://bitbucket.org/" />
-          
+
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
@@ -619,8 +619,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.0" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-12.1" />
 
-  
   <!--TeamBliss repos -->
 
   <!-- <project path="packages/apps/BlissPapers" name="TeamBliss-LP/android_packages_apps_BlissPapers" revision="lp5.0" /> -->
@@ -629,8 +629,8 @@
   <!-- <project path="frameworks/support" name="TeamBliss-LP/platform_frameworks_support" remote="github" revision="lp5.1" /> -->
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.1" /> 
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-5.0" />
-  <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />       
- 
+  <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />
+
   <!--Vendor Repos-->
   <project path="vendor/bliss" name="TeamBliss-LP/android_vendor_bliss" remote="github" revision="lp5.1" />    
   <project path="vendor/lge" name="TeamBliss-Devices/proprietary_vendor_lge" remote="github" revision="lp5.1" />
@@ -652,7 +652,7 @@
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> 
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
-     
+
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
