@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-5.1.1_r1" />
+           revision="refs/tags/android-5.1.1_r2" />
 
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
@@ -315,7 +315,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <!-- AOSP Repos End -->
-  
+
   <!-- CyanogenMod Repos Start -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
@@ -554,6 +554,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-12.1" />
   <!-- CyanogenMod Repos End -->
 
   <!-- BlissRom Repos Start -->
@@ -608,10 +609,10 @@
   <project path="prebuilts/ndk" name="prebuilts_ndk" remote="br" revision="lp5.1" />
   <project path="system/core" name="system_core" remote="br" revision="lp5.1" />
   <project path="system/vold" name="system_vold" remote="br" revision="lp5.1" />
-  <project path="vendor/bliss" name="vendor_bliss" remote="br" revision="lp5.1" />    
+  <project path="vendor/bliss" name="vendor_bliss" remote="br" revision="lp5.1" />
   <project path="vendor/lge" name="vendor_lge" remote="br" revision="lp5.1" />
   <!-- BlissRom Repos End -->
-  
+
   <!-- TeamBliss Repos Start -->
   <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" remote="gh" revision="lp5.0" />
   <!-- <project path="packages/apps/DeviceControl" name="TeamBliss-LP/android_packages_apps_DeviceControl" remote="gh" revision="lp5.0" /> -->
@@ -630,8 +631,8 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" name="frap129/x86_64-linux-glibc-2.20-4.8" remote="gh" revision="master" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="gh" revision="cm-12.0" />
   <!-- Additional Repos End -->
-   
-  <!-- ToolChain Repos Start --> 
+
+  <!-- ToolChain Repos Start -->
   <!-- Rom Toolchains -->
   <!-- SaberMod -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" remote="gh" revision="lp" />
@@ -646,7 +647,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" remote="gh" revision="master" />  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="Team-Validus/arm-eabi-4.10" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" name="SmokeyMcBong/sm-arm-eabi-5.0" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="gh" revision="arm-eabi-4.9" />
   <!-- Uber -->
@@ -657,5 +658,5 @@
   <!-- Linaro -->
   <project path="prebuilts/gcc/linux-x86/arm/linaro" name="VanirAOSP/linaro_toolchains_2015" remote="gh" revision="L5" />
   <!-- ToolChain Repos End -->
-  
+
 </manifest>
