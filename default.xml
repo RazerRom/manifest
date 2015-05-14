@@ -650,7 +650,7 @@
 
   <!--Additional Repos-->
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> 
-  <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
+  <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
