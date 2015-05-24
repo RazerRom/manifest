@@ -343,6 +343,7 @@
   <project path="external/chromium_org/v8" name="CyanogenMod/android_external_chromium_org_v8" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="gh" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
@@ -621,7 +622,6 @@
   <!-- TeamBliss Repos End -->
 
   <!-- Additional Repos Start -->
-  <project path="external/dhcpcd" name="temasek/android_external_dhcpcd" groups="pdk-cw-fs" remote="gh" revision="cm-12.1" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" remote="gh" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" remote="gh" revision="n-2.0" />
   <project path="hardware/samsung" name="TeamBliss-Devices/android_hardware_samsung" remote="gh" revision="lp5.0" />
