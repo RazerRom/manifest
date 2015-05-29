@@ -9,8 +9,8 @@
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
-  <remote  name="br"
-           fetch="https://github.com/BlissRom/" />
+  <remote  name="rr"
+           fetch="https://github.com/RazerRom/" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
@@ -558,61 +558,60 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-12.1" />
   <!-- CyanogenMod Repos End -->
 
-  <!-- BlissRom Repos Start -->
-  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="arm-eabi-5.1" remote="br" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="br" revision="master" /> -->
-  <project path="art" name="art" remote="br" revision="lp5.1" />
-  <project path="bionic" name="bionic" remote="br" revision="lp5.1" />
-  <project path="build" name="build" remote="br" revision="lp5.1" >
+  <!-- RazerRom Repos Start -->
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="arm-eabi-5.1" remote="rr" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="rr" revision="master" /> -->
+  <project path="art" name="art" remote="rr" revision="lp5.1" />
+  <project path="bionic" name="bionic" remote="rr" revision="lp5.1" />
+  <project path="build" name="build" remote="rr" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="development" name="development" remote="br" revision="lp5.1" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="br" revision="lp5.1" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="br" revision="lp5.1" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="br" revision="lp5.1" />
-  <project path="external/chromium_org" name="external_chromium_org" remote="br" revision="lp5.1" />
-  <project path="external/chromium_org/third_party/WebKit" name="external_chromium_org_third_party_WebKit" remote="br" revision="lp5.1" />
-  <project path="external/jpeg" name="external_jpeg" remote="br" revision="lp5.1" />
-  <project path="external/libcxx" name="external_libcxx" remote="br" revision="lp5.1" />
-  <project path="external/libpng" name="external_libpng" remote="br" revision="lp5.1" />
-  <project path="external/openssl" name="external_openssl" remote="br" revision="lp5.1" />
-  <project path="external/skia" name="external_skia" remote="br" revision="lp5.1" />
-  <project path="external/sqlite" name="external_sqlite" remote="br" revision="lp5.1" />
-  <project path="external/stlport" name="external_stlport" remote="br" revision="lp5.1" />
-  <project path="frameworks/av" name="frameworks_av" remote="br" revision="lp5.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="br" revision="lp5.1" />
-  <project path="frameworks/native" name="frameworks_native" remote="br" revision="lp5.1" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="br" revision="lp5.1" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="br" revision="lp5.1" />
-  <project path="frameworks/webview" name="frameworks_webview" remote="br" revision="lp5.1" />
-  <project path="libcore" name="libcore" remote="br" revision="lp5.1" />
-  <project path="manifest" name="manifest" remote="br" revision="lp5.1" />
-  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="br" revision="lp5.1" />
-  <!-- <project path="packages/apps/BlissPapers" name="packages_apps_BlissPapers" remote="br" revision="lp5.1" /> -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="br" revision="lp5.1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="br" revision="lp5.1" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="br" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="br" revision="lp5.1" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="br" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="br" revision="lp5.1" />
-  <project path="packages/apps/FloatingActionButton" name="packages_apps_FloatingActionButton" remote="br" revision="lp5.1" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="br" revision="lp5.1" />
-  <project path="packages/apps/KernelAdiutor" name="packages_apps_KernelAdiutor" remote="br" revision="lp5.1" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="br" revision="lp5.1" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="br" revision="lp5.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="br" revision="lp5.1" />
-  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="br" revision="lp5.1" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="br" revision="lp5.1" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="br" revision="lp5.1" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="br" revision="lp5.1" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="br" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="br" revision="lp5.1" />
-  <project path="prebuilts/ndk" name="prebuilts_ndk" remote="br" revision="lp5.1" />
-  <project path="system/core" name="system_core" remote="br" revision="lp5.1" />
-  <project path="system/vold" name="system_vold" remote="br" revision="lp5.1" />
-  <project path="vendor/bliss" name="vendor_bliss" remote="br" revision="lp5.1" />
-  <project path="vendor/lge" name="vendor_lge" remote="br" revision="lp5.1" />
-  <!-- BlissRom Repos End -->
+  <project path="development" name="development" remote="rr" revision="lp5.1" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="rr" revision="lp5.1" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="rr" revision="lp5.1" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="rr" revision="lp5.1" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="rr" revision="lp5.1" />
+  <project path="external/chromium_org/third_party/WebKit" name="external_chromium_org_third_party_WebKit" remote="rr" revision="lp5.1" />
+  <project path="external/jpeg" name="external_jpeg" remote="rr" revision="lp5.1" />
+  <project path="external/libcxx" name="external_libcxx" remote="rr" revision="lp5.1" />
+  <project path="external/libpng" name="external_libpng" remote="rr" revision="lp5.1" />
+  <project path="external/openssl" name="external_openssl" remote="rr" revision="lp5.1" />
+  <project path="external/skia" name="external_skia" remote="rr" revision="lp5.1" />
+  <project path="external/sqlite" name="external_sqlite" remote="rr" revision="lp5.1" />
+  <project path="external/stlport" name="external_stlport" remote="rr" revision="lp5.1" />
+  <project path="frameworks/av" name="frameworks_av" remote="rr" revision="lp5.1" />
+  <project path="frameworks/base" name="frameworks_base" remote="rr" revision="lp5.1" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr" revision="lp5.1" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="rr" revision="lp5.1" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rr" revision="lp5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="rr" revision="lp5.1" />
+  <project path="libcore" name="libcore" remote="rr" revision="lp5.1" />
+  <project path="manifest" name="manifest" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/FloatingActionButton" name="packages_apps_FloatingActionButton" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/KernelAdiutor" name="packages_apps_KernelAdiutor" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="rr" revision="lp5.1" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="rr" revision="lp5.1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="rr" revision="lp5.1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="rr" revision="lp5.1" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr" revision="lp5.1" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr" revision="lp5.1" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr" revision="lp5.1" />
+  <project path="prebuilts/ndk" name="prebuilts_ndk" remote="rr" revision="lp5.1" />
+  <project path="system/core" name="system_core" remote="rr" revision="lp5.1" />
+  <project path="system/vold" name="system_vold" remote="rr" revision="lp5.1" />
+  <project path="vendor/razer" name="vendor_razer" remote="rr" revision="lp5.1" />
+  <project path="vendor/lge" name="vendor_lge" remote="rr" revision="lp5.1" />
+  <!-- RazerRom Repos End -->
 
   <!-- TeamBliss Repos Start -->
   <project path="packages/apps/BlissStats" name="TeamBliss-LP/android_packages_apps_RomStats" remote="gh" revision="lp5.0" />

@@ -1,9 +1,9 @@
-BlissRom Project
+The RazerRom Project
 ===================
 
 Getting Started
 ---------------
-To get started with the BlissRom Project sources, you'll need to get
+To get started with the RazerRom Project sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 
@@ -15,7 +15,7 @@ You will need to set up some directories in your build environment.
 To create them run:
 
     mkdir -p ~/bin
-    mkdir -p ~/BlissRom
+    mkdir -p ~/RazerRom
 
 
 Install the Repository
@@ -28,7 +28,7 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd ~/BlissRom
+    cd ~/RazerRom
 
 
 Repositories:
@@ -36,7 +36,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 ----------------------------------------
-    repo init -u https://github.com/BlissRom/manifest.git -b lp5.1 
+    repo init -u https://github.com/RazerRom/manifest.git -b lp5.1 
     
     && 
     
@@ -63,20 +63,20 @@ Build the Code:
 
 ***
 
-BlissRom Build Flags
+RazerRom Build Flags
 -----------------
 
 These can be added to your device trees BoardConfig.mk
 
-`BLISS_STRICT:= true`    "run strict aliasing"
+`RAZER_STRICT:= true`    "run strict aliasing"
 
-`BLISS_O3 := true`   run   "O3 optimizations on build"
+`RAZER_O3 := true`   run   "O3 optimizations on build"
 
-`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
+`RAZER_GRAPHITE := true`    "run Graphite optimiations on build"
 
-`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
+`RAZER_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
 
-`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
+`RAZER_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
 
 `TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
 
@@ -90,4 +90,4 @@ If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to Bo
 
 `TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
 
-Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`
+Last but not least, add this line to end of BoardConfig.mk `-include vendor/razer/config/sm.mk`
