@@ -153,6 +153,8 @@
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" groups="pdk-cw-fs" remote="github" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
+  <project path="external/dnscrypt/dnscrypt-proxy" name="TeamBliss-LP/android_external_dnscrypt_dnscrypt-proxy" remote="github" revision="lp5.1" />
+  <project path="external/dnscrypt/libsodium" name="TeamBliss-LP/android_external_dnscrypt_libsodium" remote="github" revision="lp5.1" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" remote="aosp" />
