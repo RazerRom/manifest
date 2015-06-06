@@ -1,6 +1,5 @@
 Getting Started 
 ---------------
-Wish a happy birthday to genesixx
 
 To get started with Android/BlissPop, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
