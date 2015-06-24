@@ -28,10 +28,16 @@ or make is all one line.
 . build/envsetup.sh && breakfast `device name here` && export USE_PREBUILT_CHROMIUM=1 && brunch *device name here*
 
 
-For more information on this Github Organization and how it is structured, 
+For more information on this Github Organization and how it is structured,
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
 ***
+
+Using Build Script
+------------------
+
+run command  ". build.sh" and follow the command prompts.
+
 
 GERRIT
 ------
