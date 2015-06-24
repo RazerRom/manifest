@@ -674,7 +674,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-linaro" name="UBERTC/arm-linux-androideabi-5.1" remote="bitbucket" revision="master" />
 
-  <!-- LINARO KERNEL TOOLCHAINS --> 
+  <!-- LINARO KERNEL TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-linaro" name="UBERTC/arm-eabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-linaro" name="UBERTC/arm-eabi-5.1" remote="bitbucket" revision="master" />
@@ -684,5 +684,8 @@
   <!-- GCC 5.1 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="TeamBliss-LP/arm-eabi-5.1" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="TeamBliss-LP/arm-linux-androideabi-5.1" remote="github" revision="master" />
+
+  <!-- Build Script -->
+  <project path="." name="https://github.com/TeamBliss-LP/build_script" remote="github" revision="lp5.1" />
 
 </manifest>
