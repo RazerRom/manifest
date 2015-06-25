@@ -570,8 +570,6 @@
   </project>
   <project path="." name="build_script" remote="rr" revision="lp5.1" />
   <project path="development" name="development" remote="rr" revision="lp5.1" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="rr" revision="lp5.1" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="rr" revision="lp5.1" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="rr" revision="lp5.1" />
   <project path="external/chromium_org" name="external_chromium_org" remote="rr" revision="lp5.1" />
   <project path="external/chromium_org/third_party/WebKit" name="external_chromium_org_third_party_WebKit" remote="rr" revision="lp5.1" />
@@ -613,7 +611,12 @@
   <project path="system/core" name="system_core" remote="rr" revision="lp5.1" />
   <project path="system/vold" name="system_vold" remote="rr" revision="lp5.1" />
   <project path="vendor/razer" name="vendor_razer" remote="rr" revision="lp5.1" />
-  <project path="vendor/lge" name="vendor_lge" remote="rr" revision="lp5.1" />
+  <!-- Device Repos Start -->
+  <!-- Oneplus One -->
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" remote="rr" revision="lp5.1" />
+  <project path="vendor/oneplus" name="vendor_oneplus" remote="rr" revision="lp5.1" />
+  <project path="vendor/oppo" name="vendor_oppo" remote="rr" revision="lp5.1" />
+  <!-- Device Repos End -->
   <!-- RazerRom Repos End -->
 
   <!-- TeamBliss Repos Start -->
