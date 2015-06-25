@@ -63,6 +63,12 @@ Build the Code:
 
 ***
 
+Using Build Script
+------------------
+
+run command  ". build.sh" and follow the command prompts.
+
+
 RazerRom Build Flags
 -----------------
 

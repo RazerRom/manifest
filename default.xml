@@ -568,6 +568,7 @@
   <project path="build" name="build" remote="rr" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="." name="build_script" remote="rr" revision="lp5.1" />
   <project path="development" name="development" remote="rr" revision="lp5.1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="rr" revision="lp5.1" />
   <project path="device/lge/mako" name="device_lge_mako" remote="rr" revision="lp5.1" />
