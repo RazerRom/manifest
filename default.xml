@@ -613,9 +613,8 @@
   <project path="vendor/razer" name="vendor_razer" remote="rr" revision="lp5.1" />
   <!-- Device Repos Start -->
   <!-- Oneplus One -->
-  <project path="device/oneplus/bacon" name="device_oneplus_bacon" remote="rr" revision="lp5.1" />
-  <project path="vendor/oneplus" name="vendor_oneplus" remote="rr" revision="lp5.1" />
-  <project path="vendor/oppo" name="vendor_oppo" remote="rr" revision="lp5.1" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-12.1" />
   <!-- Device Repos End -->
   <!-- RazerRom Repos End -->
 
