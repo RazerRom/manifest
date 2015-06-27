@@ -623,7 +623,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.0" />
+  <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" revision="cm-12.1" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" revision="cm-12.1" />
 
   <!--TeamBliss repos -->
@@ -656,7 +656,7 @@
   <!--Additional Repos-->
   <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> 
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
