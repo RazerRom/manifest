@@ -568,7 +568,6 @@
   <project path="build" name="build" remote="rr" revision="lp5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="." name="build_script" remote="rr" revision="lp5.1" />
   <project path="development" name="development" remote="rr" revision="lp5.1" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="rr" revision="lp5.1" />
   <project path="external/chromium_org" name="external_chromium_org" remote="rr" revision="lp5.1" />
@@ -610,7 +609,9 @@
   <project path="prebuilts/ndk" name="prebuilts_ndk" remote="rr" revision="lp5.1" />
   <project path="system/core" name="system_core" remote="rr" revision="lp5.1" />
   <project path="system/vold" name="system_vold" remote="rr" revision="lp5.1" />
-  <project path="vendor/razer" name="vendor_razer" remote="rr" revision="lp5.1" />
+  <project path="vendor/razer" name="vendor_razer" remote="rr" revision="lp5.1" >
+	  <copyfile src="tools/build.sh" dest="build.sh" />
+  </project>
   <!-- Device Repos Start -->
   <!-- Oneplus One -->
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1" />
