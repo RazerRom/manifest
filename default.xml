@@ -655,22 +655,20 @@
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.1" />
   <!--  <project path="vendor/moto/shamu" name="pjgraber03/vendor_moto_shamu" remote="github" revision="5.1" /> -->
   <project path="vendor/xiaomi" name="TeamBliss-Devices/proprietary_vendor_xiaomi" remote="github" revision="lp5.1" />
-
   <!--Additional Repos-->
-  <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> 
+  <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="arm-linux-androideabi-4.8" remote="tv" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="arm-linux-androideabi-4.9" remote="tv" revision="lp" />
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="SmokeyMcBong/sm-arm-androideabi-5.0" remote="bitbucket" revision="master" /> -->
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="arm-eabi-4.7" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="arm-eabi-4.8" remote="tv" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="arm-eabi-4.9" remote="tv" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />  
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-sm" name="SaberMod/GCC_SaberMod" remote="github" revision="5.1.1" />  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10-sm" name="arm-eabi-4.10" remote="tv" revision="master" />
   <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" name="SmokeyMcBong/sm-arm-eabi-5.0" remote="bitbucket" revision="master" /> -->
    <!-- LINARO ROM TOOLCHAINS -->
@@ -683,10 +681,10 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" name="UBERTC/arm-eabi-4.9" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-linaro" name="UBERTC/arm-eabi-5.1" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-linaro" name="UBERTC/arm-eabi-6.0" remote="bitbucket" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/linaro" name="linaro_toolchains_2015" remote="vr" revision="L5" />
 
   <!-- GCC 5.1 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" name="TeamBliss-LP/arm-eabi-5.1" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-sm" name="TeamBliss-LP/arm-eabi-5.1" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="TeamBliss-LP/arm-linux-androideabi-5.1" remote="github" revision="master" />
 
 </manifest>
