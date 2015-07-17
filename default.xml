@@ -29,9 +29,6 @@
   <remote name="tm"
           fetch="https://github.com/TheMuppets/" />
 
-  <remote  name="tv"
-           fetch="https://github.com/Team-Validus/" />
-
   <remote name="vr"
           fetch="https://github.com/VanirAOSP/" />
 
@@ -661,10 +658,16 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.1" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="SmokeyMcBong/sm-arm-androideabi-5.0" remote="bitbucket" revision="master" /> -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.8-sm" name="infected-lp/sm_arm-linux-androideabi-4.8.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.9-sm" name="infected-lp/sm_arm-linux-androideabi-4.9.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-hybrid" name="infected-lp/sm_rom_4.9_hybrid" remote="github" revision="master" />
+
   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="infected-lp/sm_arm-eabi-4.8.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="infected-lp/sm_arm-eabi-4.9.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-hybrid" name="infected-lp/sm_kernel_4.9_hybrid" remote="github" revision="master" />
   <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="RobbieL811/Sabermod" remote="github" revision="arm-eabi-4.9" /> -->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" name="SmokeyMcBong/sm-arm-eabi-5.0" remote="bitbucket" revision="master" /> -->
+
    <!-- LINARO ROM TOOLCHAINS -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="bitbucket" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaro" name="UBERTC/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
