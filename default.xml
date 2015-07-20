@@ -659,9 +659,9 @@
 
   <!--HYPER TOOLCHAINS-->
   <!--Rom Chains-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.8-sabernaro" name="hyper-toolchains/SaberNaro-androideabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.8-linaromod" name="hyper-toolchains/LinaroMod-androideabi-4.8" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.9-linaromod" name="hyper-toolchains/LinaroMod-androideabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sabernaro" name="hyper-toolchains/SaberNaro-androideabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaromod" name="hyper-toolchains/LinaroMod-androideabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-linaromod" name="hyper-toolchains/LinaroMod-androideabi-4.9" remote="github" revision="master" />
   <!--Kernel Chains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sabernaro" name="hyper-toolchains/SaberNaro-arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaromod" name="hyper-toolchains/LinaroMod-arm-eabi-4.9" remote="github" revision="master" />
@@ -670,8 +670,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1-hyperlinaro" name="hyper-toolchains/hyper-linaro-arm-eabi-5.1" remote="bitbucket" revision="master" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.8-sm" name="infected-lp/sm_arm-linux-androideabi-4.8.x" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux/androideabi-4.9-sm" name="infected-lp/sm_arm-linux-androideabi-4.9.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="infected-lp/sm_arm-linux-androideabi-4.8.x" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="infected-lp/sm_arm-linux-androideabi-4.9.x" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-hybrid" name="infected-lp/sm_rom_4.9_hybrid" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1-sm" name="TeamBliss-LP/arm-linux-androideabi-5.1" remote="github" revision="master" />
 
