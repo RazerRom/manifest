@@ -633,6 +633,7 @@
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="gh" revision="android-5.0" />
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="gh" revision="lp5.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="cm-12.1" />
+  <project path="packages/apps/WallpaperPicker" name="SlimSaber/packages_apps_WallpaperPicker"  remote="gh" revision="lp5.1" />
   <!-- <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" name="frap129/x86_64-linux-glibc-2.20-4.8" remote="gh" revision="master" /> -->
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="gh" revision="cm-12.1" />
   <!-- Additional Repos End -->
