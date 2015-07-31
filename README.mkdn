@@ -1,35 +1,65 @@
-Getting Started 
+The RazerRom Project
+===================
+
+Getting Started
+---------------
+To get started with the RazerRom Project sources, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+
+
+Create the Directories
+----------------------
+
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/RazerRom
+
+
+Install the Repository
+----------------------
+
+Enter the following to download the "repo" binary and make it executable:
+
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/RazerRom
+
+
+Repositories:
 ---------------
 
-To get started with Android/BlissPop, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Before you continue --> run this in the terminal
+----------------------------------------
+    repo init -u https://github.com/RazerRom/manifest.git -b lp5.1 
+    
+    && 
+    
+    repo sync -f (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
 
-To initialize your local repository using the BlissPop trees, use this command:
-
-
-    repo init -u https://github.com/TeamBliss-LP/android.git -b lp5.1
-
-Then to sync up:
-
-    repo sync (-j4) (-j8) (-j16)- This depends on number of cpu cores- use just "repo sync" if you are unsure.
-
-To build for your device, and use PREBUILT_CHROMIUM Command.
-
-. build/envsetup.sh
-
-breakfast `device name here`
-
-export USE_PREBUILT_CHROMIUM=1
-
-brunch `device name here`
-
-or make is all one line.
-
-. build/envsetup.sh && breakfast `device name here` && export USE_PREBUILT_CHROMIUM=1 && brunch *device name here*
+*PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j4 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high. 
+if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
 
 
-For more information on this Github Organization and how it is structured,
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+Building the System
+-------------------
+
+Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
+
+    . build/envsetup.sh && brunch hammerhead
+    ( Replace hammerhead with your device name if you are building for other devices )
+
+You can also build (and see how long it took) for specific devices like this:
+
+Build the Code:
+
+    . build/envsetup.sh && time brunch hammerhead
+    ( Replace hammerhead with your device name if you are building for other devices )
 
 ***
 
@@ -39,43 +69,20 @@ Using Build Script
 run command  ". build.sh" and follow the command prompts.
 
 
-GERRIT
-------
-review.blissroms.com
-
-If you would like to contribute to the blissrom project submit patches to:
-`review.blissroms.com`. Then head into the project and clone it locally make changes and push back to bliss review.
-
-HOW TO SUBMIT TO OUR GERRIT:
-
-First and foremost, setup your github with out Gerrit.
-
-Clone the repo you would like to commit to from the Gerrit [Project List](http://review.blissroms.com:8081/#/admin/projects/)
-   -Select from the list and copy clone command line.
-
-Make sure you have git review installed
-   - sudo apt-get install git-review
-   
-Make sure you are on the correct branch----lp5.1
-
-Make you change and commit it
-
-Now just type git review, if it does not have the remote yet it will automatically add it and just answer yes to its questions. It will push to the gerrit for you.
-
-BLISS BUILD FLAGS
+RazerRom Build Flags
 -----------------
 
 These can be added to your device trees BoardConfig.mk
 
-`BLISS_STRICT:= true`    "run strict aliasing"
+`RAZER_STRICT:= true`    "run strict aliasing"
 
-`BLISS_O3 := true`   run   "O3 optimizations on build"
+`RAZER_O3 := true`   run   "O3 optimizations on build"
 
-`BLISS_GRAPHITE := true`    "run Graphite optimiations on build"
+`RAZER_GRAPHITE := true`    "run Graphite optimiations on build"
 
-`BLISS_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
+`RAZER_KRAIT := true`    "run krait optimizations on build-- CPU specific, please verify if you can use this"
 
-`BLISS_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
+`RAZER_PIPE := true`   "This flag actually has no effect on the generated code, but it makes the compilation process faster."
 
 `TARGET_TC_ROM := "@@"` Specify toolchain for Rom to be compiled with
 
@@ -89,4 +96,4 @@ If you use TARGET_TC_ROM and/or TARGET_TC_KERNEL, please add the following to Bo
 
 `TARGET_KERNEL_CUSTOM_TOOLCHAIN := $(TARGET_TC_KERNEL)`
 
-Last but not least, add this line to end of BoardConfig.mk `-include vendor/bliss/config/sm.mk`
+Last but not least, add this line to end of BoardConfig.mk `-include vendor/razer/config/sm.mk`
