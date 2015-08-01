@@ -480,7 +480,6 @@
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="TeamBliss-LP/android_packages_providers_ContactsProvider" remote="gh" revision="lp5.1" />
   <project path="packages/providers/DownloadProvider" name="TeamBliss-LP/android_packages_providers_DownloadProvider" remote="gh" revision="lp5.1" />
   <project path="packages/providers/MediaProvider" name="TeamBliss-LP/android_packages_providers_MediaProvider" remote="gh" revision="lp5.1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
@@ -593,6 +592,7 @@
   <project path="packages/apps/Mms" name="RazerRom/packages_apps_Mms" remote="rr" revision="lp5.1" />
   <project path="packages/apps/Settings" name="RazerRom/packages_apps_Settings" remote="rr" revision="lp5.1" />
   <project path="packages/apps/ThemeChooser" name="RazerRom/packages_apps_ThemeChooser" remote="rr" revision="lp5.1" />
+  <project path="packages/providers/ContactsProvider" name="RazerRom/packages_providers_ContactsProvider" remote="rr" revision="lp5.1" />
   <project path="packages/inputmethods/LatinIME" name="RazerRom/packages_inputmethods_LatinIME" remote="rr" revision="lp5.1" />
   <project path="system/core" name="RazerRom/system_core" groups="pdk" remote="rr" revision="lp5.1" />
   <project path="vendor/razer" name="RazerRom/vendor_razer" remote="rr" revision="lp5.1" >
