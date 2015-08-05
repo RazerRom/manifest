@@ -10,8 +10,7 @@
           fetch="https://bitbucket.org/" />
 
   <remote name="gh"
-          fetch=".."
-          review="review.cyanogenmod.org" />
+          fetch="https://github.com/" />
 
   <remote name="rr"
           fetch="https://github.com/" />
@@ -466,7 +465,7 @@
   <project path="packages/apps/Nfc" name="AICP/packages_apps_Nfc" remote="gh" revision="lp5.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="gh" revision="cm-12.0" />
-  <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="TeamBliss-LP/android_packages_apps_PhoneCommon" remote="gh" revision="lp5.1" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
