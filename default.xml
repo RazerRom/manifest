@@ -605,7 +605,6 @@
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" revision="lp5.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="cm-12.1" />
   <project path="packages/apps/ScreenRecorder" name="TeamBliss-LP/android_packages_apps_ScreenRecorder" revision="lp5.0" />
-  <project path="packages/apps/WallpaperPicker" name="SlimSaber/packages_apps_WallpaperPicker"  remote="gh" revision="lp5.1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" name="frap129/x86_64-linux-glibc-2.20-4.8" remote="gh" revision="master" />
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="gh" revision="cm-12.1" />
